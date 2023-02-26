@@ -1,0 +1,81 @@
+@charset "UTF-8"; 
+.menu{
+/* position: absolute; */
+position: fixed;
+top: 0;
+bottom: 0;
+left:400px;
+width: 400px;
+margin-left: -400px;
+background-color:  #1c1b2b;
+z-index: 100;
+transition: all .4s;
+padding:28px 30px;
+padding-bottom: 150px;
+}
+.menu h1{
+    margin-bottom: 60px;
+
+}
+.navWrap{
+    border-bottom:1px solid #2b2b36;
+}
+
+
+.navWrap li {
+    width: 100%;
+    height: 60px;
+
+    padding-left: 30px;
+}
+.navWrap li span img{display: inline-block;
+vertical-align: middle;
+margin-right: 13px;
+}
+.navWrap li span a{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c8b9b;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+
+}
+.active{
+
+    font-weight: bold;
+position: relative;
+}
+    .active::after{
+        content: "";
+        width: 400px;
+        height: 60px;
+        background-color: #2b2a3b;
+        opacity: 0.6;
+        position: absolute;
+        left: -60px;
+        top:-20px;
+        z-index: -1;
+    }
+
+    .companyMenu{
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+       padding-top: 20px;
+    }
+    .companyMenu a{
+        color: #8c8b9b;
+    }
+    .companyMenu li{
+line-height: 2.5;
+    }

@@ -1,0 +1,501 @@
+section {
+    min-width: 1430px;
+}
+/* Youtuber--------------------------------- */
+
+.youtuberCheck {
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    padding: 15px 20px;
+}
+
+.youtuberCheck label {
+    vertical-align: middle;
+    line-height: 1;
+
+
+}
+
+.youtuberCheck label input[type="radio"] {
+    border: solid 1px #d5d5d5;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+
+}
+
+.youtuberCheck img {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4px;
+    margin-right: 30px;
+
+}
+
+.youtuberCheckLabel {
+    position: relative;
+    display: inline-block;
+
+}
+
+
+.youtuberCheckLabel .tooltip {
+    display: none;
+    background: #fff;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-size: 12px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: -0.78px;
+    text-align: left;
+    padding: 12px 9px 8px 13px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 #ebebeb;
+    padding: 12px;
+    z-index: 10;
+    width: 250px;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;
+}
+
+.youtuberCheckLabel:hover .tooltip {
+    display: block;
+}
+
+.search-container {
+    display: inline-block;
+}
+
+.search-container input[type=text] {
+    width: 350px;
+    font-size: 18px;
+    letter-spacing: -1.08px;
+    text-align: left;
+    color: #a5a5a5;
+    padding: 17px 22.7px 15px 20px;
+    border-radius: 25px;
+    border: solid 1px #d5d5d5;
+    background-color: #fff;
+    vertical-align: middle;
+}
+
+.search-container input[type=text] ::placeholder {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a5a5a5;
+}
+
+.search-container input[type=image] {
+    margin-left: -45px;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search-container label {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    color: #222;
+
+}
+
+.search-container label {
+
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.search-container input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+    border: solid 1px #707070;
+    background-color: #fff;
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: left;
+    color: #222;
+    margin-right: 8px;
+}
+/* Youtuber--------------------------------- */
+
+/* Filters----------------------------- */
+
+.filterBox{
+    padding: 33px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 #f7f7f7;
+    background-color: #fff;
+}
+.flexitem1, .flexitem3{
+    width: 30%;
+
+}
+.flexitem2{
+    width: 38%;
+}
+.flexitem div input[type=text]{
+ 
+    border: solid 1px #d5d5d5;
+    background-color: #fff;
+}
+.flexitem h4{
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;
+}
+.flexitem input[type=text]{
+    border: solid 1px #d5d5d5;
+    background-color: #fff;
+}
+.flexitem1 input[type=text]{
+    width: 60px;
+    height: 36px;
+    margin: 14px 2px 22px 6px;
+
+}
+.flexitem1 small{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a5a5a5;
+}
+.flexitem2 p{
+    display: inline-block;
+    font-size: 14px;
+    text-align: left;
+    color: #464646;
+}
+.flexitem2 input[type=text]{
+    width: 100px;
+    height: 36px;
+    margin: 14px 6px 22px 0;
+
+}
+.flexitem2 span{
+    font-size: 14px;
+    text-align: left;
+    color: #222;
+}
+
+.flexitem3 input[type=checkbox]{
+    width: 14px;
+    height: 14px;
+    line-height: 1.5;
+    border: solid 1px #a5a5a5;
+    background-color: #fff;
+    margin: 20px 2px 22px 6px;
+}
+.flexitem3 label{
+    font-size: 14px;
+    text-align: left;
+    color: #222;
+    display: inline-block;
+    vertical-align: middle;
+  margin-right: 20px;
+}
+
+.filters hr{margin-bottom: 30px;}
+.flexcontainer{
+
+}
+.flexitem4{
+    width: 30%;
+}
+
+
+
+.flexitem5{
+    width:26%;
+}
+.flexitem4 h4, .flexitem6 h4{
+    display: inline-block;
+    margin-right: 3px;
+}
+.flexitem6 small{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+
+    text-align: left;
+    color: #a5a5a5;
+}
+
+.selctBoximg{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;
+    padding: 10px 10px;
+    border: solid 1px #d5d5d5;
+    width: 297px;
+    position: relative;
+    margin-top: 10px;
+}
+.selctBoximg img{
+    width: 12px;
+    position: absolute;
+    right: 6px;
+    top:14px;
+   
+}
+.inputWrap{
+    padding: 18px;
+    box-shadow: 0 0 10px 0 #ebebeb;
+    background-color: #fff;
+ display: none;
+
+}
+.inputWrap em{
+    font-size: 14px;
+    text-align: left;
+    color: #222;
+    width: 80px;
+    display: inline-block;
+
+    line-height: 2;
+}
+.inputWrap input[type=checkbox]{
+  width: 14px;
+  margin-right: 0;
+  margin-left: 0;
+
+ 
+}
+#result{
+    font-size: 13px;
+margin-top: 10px;
+ 
+}
+
+
+select {
+    margin-top: 12px;;
+    height: 40px;
+    padding: 9px 10px;
+    border: solid 1px #d5d5d5;
+    width: 297px;
+    background-color: #fff;
+
+ 
+ }
+
+ .flexitem6 p{
+    font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #464646;
+  display: inline-block;
+  vertical-align: middle;
+
+ }
+ .flexitem6 input[type=text]{
+    width: 70px;
+    height: 36px;
+    margin-top: 15px;
+    border: solid 1px #d5d5d5;
+    background-color: #fff;
+ }
+
+ .flexitem7, .flexitem8{
+    width:30%;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #464646;
+}
+.flexitem7 h4{
+    display: inline-block;
+}
+.flexitem7 input[type=text]{
+    width: 70px;
+  height: 36px;
+  margin: 10px 6px 0 1px;
+  border: solid 1px #d5d5d5;
+  background-color: #fff;
+}
+.flexitem8 input[type=checkbox] {
+    width: 14px;
+    height: 14px;
+    line-height: 1.5;
+    border: solid 1px #a5a5a5;
+    background-color: #fff;
+    margin: 20px 2px 22px 6px;
+}
+.flexitem9{
+
+    width: 39%;
+    text-align: right;
+vertical-align: middle;
+}
+.flexitem9 input[type=search]{
+
+    padding: 19px 30px;
+    border-radius: 5px;
+    border: solid 1px #00c781;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #00c781;
+  
+}
+
+/* Filters----------------------------- */
+
+
+/* youtuberList-------------------------- */
+.youtuberTitle{justify-content: space-between;
+}
+.youtuberTitle h3, .youtuberTitle span{
+    display: inline-block;
+    margin-right: 10px;
+}
+.youtuberTitle  span{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;
+}
+.youtuberTitle  span strong{
+    font-weight:bold;
+}
+
+.youtuberTitle input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+    border: solid 1px #707070;
+    background-color: #fff;
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: left;
+    color: #222;
+    margin-right: 8px;
+}
+.youtuberTitle a img{
+
+vertical-align: middle;
+margin-right: 8px;
+}
+.youtuberTitle a:active {
+    background-image: url(../images/check_active_ico.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    /* width: 20px;
+    height: 20px; */
+    color: #00c781;
+    margin-top: -5px;
+  }
+  .youtuberTitle a:active .youtuberTitle span{
+    color: #00c781;
+  }
+
+
+
+/* youtuberList-------------------------- */
+
+
+
+  .youtuberBox {
+    background: lightcoral;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .youtuberBox .flexitemY1{
+    width: 55%;
+  }
+  .youtuberBox .flexitemY2{
+    width: 20%;
+  }
+  .youtuberBox .flexitemY3{
+    width: 20%;
+  }
+
+
+  .youtuberBox .flexitemY1 .mask1{
+    width: 78px;
+    height: 78px;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;    
+    border-radius: 50%;
+    display: inline-block;
+}
+.youtuberBox .flexitemY1 .mask1 img{
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+}
+
+.flexitemY2 textarea{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a5a5a5;
+    width: 300px;
+    height: 100px;
+    padding: 18px 20px;
+    border: solid 1px #ebebeb;
+    background-color: #fff;
+}
+
+
+/* 그래프 스타일----------- */
+.graph{
+    border:1px solid blue;
+}
+.graphBox{
+padding-right: 0;
+}
+  canvas {
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+  }

@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>유튜버리스트</title>
+    <link rel=stylesheet type="text/css" href="../css/reset.css">
+    <link rel=stylesheet type="text/css" href="../css/common.css">
+    <link rel=stylesheet type="text/css" href="../css/menu.css">
+    <link rel=stylesheet type="text/css" href="../css/youtuber_list.css">
+
+
+    <script src="../js/jquery-3.6.3.min.js"></script>
+    <script src="../js/checkbox.js"></script>
+    <script src="../js/chart.min.js"></script>
+    <script src="../js/utils.js"></script>
+
+</head>
+
+
+
+<body>
+
+
+    <header class="menu">
+        <h1> <img src="../images/gnb_logo_2023-02-22 (1)/gnb_logo.png" alt="유튜피아"> </h1>
+        <ul class="navWrap">
+            <li><span><img src="../images/gnb_ico_default_01.png" alt=""><a href="#">Home</a></span></li>
+            <li><span><img src="../images/gnb_ico_default_02.png" alt=""><a href="#">공지사항</a></span></li>
+            <li><span class="active"><img src="../images/gnb_ico_default_03.png" alt=""><a href="#">유튜버
+                        리스트</a></span></li>
+            <li><span><img src="../images/gnb_ico_default_04.png" alt=""><a href="#">프로젝트</a></span></li>
+            <li><span><img src="../images/gnb_ico_default_05.png" alt=""><a href="#">선정자 보기</a></span></li>
+            <li><span><img src="../images/gnb_ico_default_06.png" alt=""><a href="#">에이전시</a></span></li>
+        </ul>
+        <ul class="navWrap">
+            <li><span><img src="../images/gnb_ico_default_07.png" alt=""><a href="#">유튜브 등록</a></span></li>
+            <li><span><img src="../images/gnb_ico_default_08.png" alt=""><a href="#">유튜브 채널 키값 추출기</a></span></li>
+        </ul>
+        <ul class="navWrap">
+            <li><span><img src="../images/gnb_ico_default_09.png" alt=""><a href="#">유튜버 활동 알림</a></span></li>
+            <li><span><img src="../images/gnb_ico_default_10.png" alt=""><a href="#">유튜버 협찬/기획안</a></span></li>
+        </ul>
+        <ul class="navWrap">
+            <li><span><img src="../images/gnb_ico_default_11.png" alt=""><a href="#">추천 유튜버</a></span></li>
+        </ul>
+        <ul class="companyMenu">
+            <li><a href="">회사명 (ID)</a></li>
+            <li><a href="">회원정보 관리</a></li>
+            <li><a href="">솔루션 사용기간 : 2023-12-31까지</a></li>
+            <li><a href="">결제 정보</a></li>
+            <li><a href="">활동 내역</a></li>
+        </ul>
+    </header>
+
+
+    <nav>
+        <div id="gnb_nav">
+            <ul class="nav-right">
+                <li>
+                    <form action="">
+                        <input class="greenbtn" type="submit" value="유튜버 등록">
+                    </form>
+                </li>
+                <li>
+                    <a href="">로그아웃</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+
+
+
+    <section>
+        <h2>Youtuber</h2>
+        <div class="youtuberCheck">
+
+            <label>
+                <input type="radio" checked="checked" name="radio">
+                채널명
+            </label>
+            <div class="youtuberCheckLabel">
+                <img src="../images/question.png" alt="설명">
+                <span class="tooltip">채널명은 유튜브 내에서 변경이 가능한 값으로,
+                    유튜버가 채널명을 변경할 경우, 실시간 업데이트가 되지 않습니다.
+                    그러므로 채널명으로 검색해서 나오지 않을 경우,
+                    “채널 키값” 으로 검색하시는 것이 가장 정확합니다.</span>
+            </div>
+
+
+            <label>
+                <input type="radio" checked="checked" name="radio">
+                메일
+            </label>
+            <div class="youtuberCheckLabel">
+                <img src="../images/question.png" alt="설명">
+                <span class="tooltip">채널명은 유튜브 내에서 변경이 가능한 값으로,
+                    유튜버가 채널명을 변경할 경우, 실시간 업데이트가 되지 않습니다.
+                    그러므로 채널명으로 검색해서 나오지 않을 경우,
+                    “채널 키값” 으로 검색하시는 것이 가장 정확합니다.</span>
+            </div>
+
+            <label>
+                <input type="radio" checked="checked" name="radio">
+                소개
+            </label>
+            <div class="youtuberCheckLabel">
+                <img src="../images/question.png" alt="설명">
+                <span class="tooltip">채널명은 유튜브 내에서 변경이 가능한 값으로,
+                    유튜버가 채널명을 변경할 경우, 실시간 업데이트가 되지 않습니다.
+                    그러므로 채널명으로 검색해서 나오지 않을 경우,
+                    “채널 키값” 으로 검색하시는 것이 가장 정확합니다.</span>
+            </div>
+
+            <label>
+                <input type="radio" checked="checked" name="radio">
+                채널 ID
+            </label>
+            <div class="youtuberCheckLabel">
+                <img src="../images/question.png" alt="설명">
+                <span class="tooltip">채널명은 유튜브 내에서 변경이 가능한 값으로,
+                    유튜버가 채널명을 변경할 경우, 실시간 업데이트가 되지 않습니다.
+                    그러므로 채널명으로 검색해서 나오지 않을 경우,
+                    “채널 키값” 으로 검색하시는 것이 가장 정확합니다.</span>
+            </div>
+
+            <label>
+                <input type="radio" checked="checked" name="radio">
+                메모
+            </label>
+            <div class="youtuberCheckLabel">
+                <img src="../images/question.png" alt="설명">
+                <span class="tooltip">채널명은 유튜브 내에서 변경이 가능한 값으로,
+                    유튜버가 채널명을 변경할 경우, 실시간 업데이트가 되지 않습니다.
+                    그러므로 채널명으로 검색해서 나오지 않을 경우,
+                    “채널 키값” 으로 검색하시는 것이 가장 정확합니다.</span>
+            </div>
+
+
+            <div class="search-container">
+                <input type="text" placeholder="검색어를 입력해주세요." name="search_word" value="">
+                <input type="image" src="../images/search_ico.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <label for=""><input type="checkbox" id="" name="adview" value="1">광고영상만보기</label>
+
+            </div>
+
+        </div>
+
+        <div class="filters">
+            <h3>Filters</h3>
+
+            <div class="filterBox">
+                <div class="flexcontainer">
+                    <div class="flexitem flexitem1">
+                        <h4>구독자</h4>
+                        <div class="">
+                            <input type="text"> 만 ~ <input type="text"> 만 <small>(1,000명은 0.1 입력)</small>
+                        </div>
+
+                    </div>
+                    <div class="flexitem flexitem2">
+                        <h4>광고 친화도</h4>
+                        <p>20.7월 이후 광고 촬영 수:</p>
+                        <input type="text">
+                        <span>개 이상</span>
+                        <div class="search-container">
+                            <label for=""><input type="checkbox" id="" name="adview" value="1">광고영상만보기</label>
+                        </div>
+                    </div>
+                    <div class="flexitem flexitem3">
+                        <h4>성별</h4>
+
+                        <div class="filterSex">
+                            <input type="checkbox" id="" name="" value="">
+                            <label for="">남자</label>
+                            <input type="checkbox" id="" name="" value="">
+                            <label for=""> 여자</label>
+                            <input type="checkbox" id="" name="" value="">
+                            <label for=""> 혼성</label>
+
+                        </div>
+                    </div>
+
+                </div>
+                <hr>
+
+                <div class="flexcontainer">
+                    <div class="flexitem flexitem4">
+                        <h4>관심 분야</h4>
+                        <label>
+                            <input type="radio" checked="checked" name="radio">
+                            And
+                        </label>
+                        <label>
+                            <input type="radio" checked="checked" name="radio">
+                            Or
+                        </label>
+
+                        <div class="selctBoximg" onclick="myFunction()"> 뷰티/쿡방/게임/패션/ BJ,Creator/키즈/건강…<img id="down"
+                                src="../images/down.png" alt=""></div>
+                        <div id="inputWrap" class="inputWrap">
+                            <input type='checkbox' name='Interests' value='뷰티' onclick='getCheckboxValue()' />
+                            <em>뷰티</em>
+                            <input type='checkbox' name='Interests' value='쿡방' onclick='getCheckboxValue()' />
+                            <em>쿡방</em>
+                            <input type='checkbox' name='Interests' value='스포츠' onclick='getCheckboxValue()' />
+                            <em>스포츠</em><br>
+                            <input type='checkbox' name='Interests' value='건축,인테리어' onclick='getCheckboxValue()' />
+                            <em>건축,인테리어</em>
+                            <input type='checkbox' name='Interests' value='ASMR' onclick='getCheckboxValue()' />
+                            <em>ASMR</em>
+                            <input type='checkbox' name='Interests' value='캠핑' onclick='getCheckboxValue()' />
+                            <em>캠핑</em><br>
+                            <input type='checkbox' name='Interests' value='엔터테인먼트' onclick='getCheckboxValue()' />
+                            <em>엔터테인먼트</em>
+                            <input type='checkbox' name='Interests' value='인터뷰' onclick='getCheckboxValue()' />
+                            <em>인터뷰</em>
+                            <input type='checkbox' name='Interests' value='음악' onclick='getCheckboxValue()' />
+                            <em>음악</em><br>
+                            <input type='checkbox' name='Interests' value='그림,만화' onclick='getCheckboxValue()' />
+                            <em>그림,만화</em>
+                            <input type='checkbox' name='Interests' value='독특' onclick='getCheckboxValue()' />
+                            <em>독특</em>
+                            <input type='checkbox' name='Interests' value='패션' onclick='getCheckboxValue()' />
+                            <em>패션</em><br>
+                            <input type='checkbox' name='Interests' value='게임' onclick='getCheckboxValue()' />
+                            <em>게임</em>
+                            <input type='checkbox' name='Interests' value='출산,육아' onclick='getCheckboxValue()' />
+                            <em>출산,육아</em>
+                            <input type='checkbox' name='Interests' value='BJ,Creator' onclick='getCheckboxValue()' />
+                            <em>BJ,Creator</em><br>
+                            <input type='checkbox' name='Interests' value='성형시술' onclick='getCheckboxValue()' />
+                            <em>성형시술</em>
+                            <input type='checkbox' name='Interests' value='외국어' onclick='getCheckboxValue()' />
+                            <em>외국어</em>
+                            <input type='checkbox' name='Interests' value='낚시' onclick='getCheckboxValue()' />
+                            <em>낚시</em><br>
+                            <input type='checkbox' name='Interests' value='동물' onclick='getCheckboxValue()' />
+                            <em>동물</em>
+                            <input type='checkbox' name='Interests' value='영화' onclick='getCheckboxValue()' />
+                            <em>영화</em>
+                            <input type='checkbox' name='Interests' value='문학' onclick='getCheckboxValue()' />
+                            <em>문학</em><br>
+                            <input type='checkbox' name='Interests' value='연예인' onclick='getCheckboxValue()' />
+                            <em>연예인</em>
+                            <input type='checkbox' name='Interests' value='IT' onclick='getCheckboxValue()' />
+                            <em>IT</em>
+                            <input type='checkbox' name='Interests' value='건강,의학' onclick='getCheckboxValue()' />
+                            <em>건강,의학</em><br>
+                            <input type='checkbox' name='Interests' value='키즈' onclick='getCheckboxValue()' />
+                            <em>키즈</em>
+                            <input type='checkbox' name='Interests' value='연애' onclick='getCheckboxValue()' />
+                            <em>연애</em>
+                            <input type='checkbox' name='Interests' value='좋은이야기' onclick='getCheckboxValue()' />
+                            <em>좋은이야기</em><br>
+                            <input type='checkbox' name='Interests' value='자동차' onclick='getCheckboxValue()' />
+                            <em>자동차</em>
+                            <input type='checkbox' name='Interests' value='운세' onclick='getCheckboxValue()' />
+                            <em>운세</em>
+                            <input type='checkbox' name='Interests' value='슬라임' onclick='getCheckboxValue()' />
+                            <em>슬라임</em><br>
+                            <input type='checkbox' name='Interests' value='19' onclick='getCheckboxValue()' />
+                            <em>19</em>
+                            <input type='checkbox' name='Interests' value='먹방' onclick='getCheckboxValue()' />
+                            <em>먹방</em>
+                            <input type='checkbox' name='Interests' value='VLOG' onclick='getCheckboxValue()' />
+                            <em>VLOG</em><br>
+                            <input type='checkbox' name='Interests' value='무의미' onclick='getCheckboxValue()' />
+                            <em>무의미</em>
+                            <input type='checkbox' name='Interests' value='재태크' onclick='getCheckboxValue()' />
+                            <em>재태크</em>
+                            <input type='checkbox' name='Interests' value='브랜드' onclick='getCheckboxValue()' />
+                            <em>브랜드</em><br>
+                            <input type='checkbox' name='Interests' value='숏드라마' onclick='getCheckboxValue()' />
+                            <em>숏드라마</em>
+                            <input type='checkbox' name='Interests' value='교육' onclick='getCheckboxValue()' />
+                            <em>교육</em>
+                            <input type='checkbox' name='Interests' value='메이킹' onclick='getCheckboxValue()' />
+                            <em>메이킹</em><br>
+                            <input type='checkbox' name='Interests' value='정치' onclick='getCheckboxValue()' />
+                            <em>정치</em>
+                            <input type='checkbox' name='Interests' value='삭제계정' onclick='getCheckboxValue()' />
+                            <em>삭제계정</em>
+                        </div>
+                        <div id='result'></div>
+
+
+                    </div>
+
+                    <div class="flexitem flexitem5">
+                        <h4>소속사</h4>
+                        <select name="" id="">
+                            <option value="">소속사 선택</option>
+                            <option value="">소속사1</option>
+                            <option value="">소속사2</option>
+                            <option value="">소속사3</option>
+                        </select>
+
+
+                    </div>
+
+                    <div class="flexitem flexitem6">
+                        <h4>영상 검색</h4><small>(둘 다 입력해야함) *보통 20% 이상이면 많이 나온다고 판단합니다.</small><br>
+
+                        <p>최근 5개 영상 - 구독자대비 조회수 비율</p>
+                        <input type="text"> ~ <input type="text">
+                        <p>최근 한달 간 영상 개수</p>
+                        <input type="text">
+                        <p>개 이상</p>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="flexcontainer">
+                    <div class="flexitem flexitem7">
+                        <h4>비용 (광고유형 체크<span>*</span>)</h4>
+                        <label>
+                            <input type="radio" checked="checked" name="radio">
+                            Brand
+                        </label>
+                        <label>
+                            <input type="radio" checked="checked" name="radio">
+                            PPL
+                        </label>
+                        <div class="">
+                            제작비 <input type="text"> ~ <input type="text"> 만원
+                        </div>
+
+                    </div>
+                    <div class="flexitem flexitem8">
+                        <h4>시청자 연령</h4>
+
+                        <div class="filterSex">
+                            <input type="checkbox" id="" name="" value="">
+                            <label for="">10대</label>
+                            <input type="checkbox" id="" name="" value="">
+                            <label for=""> 20-30대</label>
+                            <input type="checkbox" id="" name="" value="">
+                            <label for=""> 40~50대</label>
+                            <input type="checkbox" id="" name="" value="">
+                            <label for=""> 60대 이상</label>
+                        </div>
+                    </div>
+                    <div class="flexitem flexitem9">
+                        <input type="search" id="search" placeholder="검색하기" />
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="youtuberList">
+            <div class="youtuberTitle flexcontainer">
+                <div class="flexitem">
+                    <h3>유튜버</h3>
+                    <span>검색 결과 <strong>2</strong>건</span>
+                    <a href=""><img src="../images/check_default_ico.png" alt=""><span>최신순으로 보기</span></a>
+                    <a href=""><img src="../images/check_default_ico.png" alt=""><span>조회수율</span></a>
+                </div>
+                <div class="flexitem">
+                    <label for=""><input type="checkbox" id="" name="" value="1">프로젝트 일괄등록</label>
+                    <label for=""><input type="checkbox" id="" name="" value="1">제안서 생성</label>
+                </div>
+            </div>
+
+            <div class="youtuberBox flexcontainer">
+
+                <!-- 유튜버정보 -------------------- -->
+                <div class="flexitem flexitemY1">
+                    <div class="mask1">
+                        <a href="../topic.php?y_id=2507" target="_blank">  <img src="../images/yThumb.jpg" alt=""></a>
+                        </div>
+                        
+                
+
+                </div>
+                      <!-- 유튜버정보 -------------------- -->
+                   <!-- 유튜버 관련메모 -------------------- -->
+                <div class="flexitem flexitemY2">
+                    <textarea name="y_memo" style="width:300px; height:310px;">- 일반적인 콜라보 컨텐츠 제작 비용
+        저희는 보람튜브 브이로그 채널에 광고를 받고 있습니다.  구독자 2150만명 보람튜브 브이로그URL- https://www.youtube.com/channel/UCU2zNeYhf9pi_wSqFbYE96w
+                보람튜브 광고 영상은 평균 400만 조회수 정도이며 약 200만~1억 3000만뷰까지 나오고 있습니다. 
+        광고는 브랜디드콘텐츠, 홍보모델, ppl 등이 있으며 채널의 단가는 광고 소개서에서 참고하실 수 있습니다. (광고 상품에 따라서 홍보 효과가 달라집니다.) 
+         - 제작 기간
+        제작기간은 보통 기획에서 편집, 업로드까지 2~3주정도가 걸립니다.  광고소개서 참고 후 문의사항 관련해서는 마케팅 담당자 번호인 010-3078-9603이나 메일로 연락부탁드립니다. ^^</textarea>
+               </div>
+                  <!-- 유튜버 관련메모 -------------------- -->
+                 <!-- 유튜버 그래프 -------------------- -->
+                <div class="flexitem flexitemY3">
+                    <div class="graph" id="graph">
+
+
+                        <div class="canvasframe">
+                            <canvas id="canvas2507" class="chartjs-render-monitor2507"></canvas>
+                        </div>
+                        <script>
+                            var config2507 = {
+                                type: 'line',
+                                data: {
+                                    labels: [
+
+
+                                        '01-07',
+
+                                        '01-14',
+
+                                        '01-21',
+
+                                        '01-28',
+
+                                        '02-04',
+
+                                        '02-11',
+
+                                        '02-18',
+
+                                        '02-25',
+
+                                        '03-04',
+
+                                        '03-11',
+
+                                        '03-18',
+
+                                        '03-25',
+
+                                        '04-01',
+
+                                        '04-08',
+
+                                        '04-15',
+
+                                        '04-22',
+
+                                        '04-29',
+
+                                        '05-06',
+
+                                        '05-13',
+
+                                        '05-20',
+
+                                        '05-27',
+
+                                        '06-03',
+
+                                        '06-10',
+
+                                        '06-17',
+
+                                        '06-24',
+
+                                        '07-01',
+
+                                        '07-08',
+
+                                        '07-15',
+
+                                        '07-22',
+
+                                        '07-29',
+
+                                        '08-05',
+
+                                        '08-12',
+
+                                        '08-19',
+
+                                        '08-26',
+
+                                        '09-02',
+
+                                        '09-09',
+
+                                        '09-16',
+
+                                        '09-23',
+
+                                        '09-30',
+
+                                        '10-07',
+
+                                        '10-14',
+
+                                        '10-21',
+
+                                        '10-28',
+
+                                        '11-04',
+
+                                        '11-11',
+
+                                        '11-18',
+
+                                        '11-25',
+
+                                        '12-02',
+
+                                        '12-09',
+
+                                        '12-16',
+
+                                        '12-23',
+
+                                        '12-30',
+
+                                        '01-06',
+
+                                        '01-13',
+
+                                        '01-20',
+
+                                        '01-27',
+
+                                        '02-03',
+
+                                        '02-10',
+
+                                        '02-17',
+
+                                        '02-24',
+
+
+                                    ],
+                                    datasets: [{
+                                            label: '구독',
+                                            fill: true,
+                                            backgroundColor: 'rgba(153, 204, 255, 0.2)',
+                                            borderColor: window.chartColors.blue,
+                                            data: [
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                0,
+
+                                                29400000,
+
+                                                29400000,
+
+                                                29400000,
+
+                                                29400000,
+
+                                                29400000,
+
+                                                29400000,
+
+                                                29500000,
+
+                                                29500000,
+
+                                                29500000,
+
+                                                29500000,
+
+                                                29500000,
+
+                                                29500000,
+
+                                                29500000,
+
+                                                29500000,
+
+                                                29600000,
+
+                                                29600000,
+
+                                                29600000,
+
+                                                29600000,
+
+                                                29600000,
+
+                                                29700000,
+
+                                                29700000,
+
+                                                29700000,
+
+                                                29800000,
+
+                                                29800000,
+
+                                                29900000,
+
+                                                29900000,
+
+                                                29900000,
+
+                                                29900000,
+
+                                                30000000,
+
+                                                30000000,
+
+
+                                            ],
+                                        },
+
+                                        {
+                                            label: '영상 평균조회수',
+                                            backgroundColor: 'rgba(255, 99, 132, 0.4)',
+                                            borderColor: window.chartColors.red,
+                                            data: [
+
+                                                57421277.959641,
+
+                                                57472610.7713,
+
+                                                57536401.210762,
+
+                                                57601505.053812,
+
+                                                57646792.67713,
+
+                                                57687951.035874,
+
+                                                57722813.520179,
+
+                                                57758218.367713,
+
+                                                57801506.520179,
+
+                                                57843486.668161,
+
+                                                57886745.264574,
+
+                                                57947155.318386,
+
+                                                58001367.520179,
+
+                                                58067006.147982,
+
+                                                58138376.390135,
+
+                                                58198981.887892,
+
+                                                58239343.61435,
+
+                                                58277056.484305,
+
+                                                58308690.650224,
+
+                                                58341234.300448,
+
+                                                58376728.112108,
+
+                                                58423306.668161,
+
+                                                58485420.394619,
+
+                                                58551360.049327,
+
+                                                58595983.215247,
+
+                                                58631755.197309,
+
+                                                58665319.807175,
+
+                                                58699218.479821,
+
+                                                58723672.878924,
+
+                                                58748064.022422,
+
+                                                58771308.421525,
+
+                                                58795119.991031,
+
+                                                58817177.547085,
+
+                                                58849352.295964,
+
+                                                58898637.70852,
+
+                                                58960306.38565,
+
+                                                59009581.439462,
+
+                                                59053947.421525,
+
+                                                59080269.183857,
+
+                                                59106539.609865,
+
+                                                59125293.313901,
+
+                                                59154117.847534,
+
+                                                59191817,
+
+                                                59237396.349776,
+
+                                                59274186.426009,
+
+                                                59323932.336323,
+
+                                                59364283.058296,
+
+                                                59398513.192825,
+
+                                                59435851.255605,
+
+                                                59474578.986547,
+
+                                                59516369.991031,
+
+                                                59566703.443946,
+
+                                                59618862.372197,
+
+                                                59667296.06278,
+
+                                                59744674.493274,
+
+                                                59806559.609865,
+
+                                                59859279.457399,
+
+                                                59898649.004484,
+
+                                                59949894.125561,
+
+                                                59996503.520179,
+
+
+
+                                            ],
+                                            fill: true,
+                                        }
+                                    ]
+                                },
+                                options: {
+                                    responsive: true,
+                                    title: {
+                                        //     display: true,
+                                        // text: '구독자그래프'
+                                    },
+                                    tooltips: {
+                                        mode: 'index',
+                                        intersect: false,
+                                    },
+                                    hover: {
+                                        mode: 'nearest',
+                                        intersect: true
+                                    },
+                                    scales: {
+                                        xAxes: [{
+                                            display: true,
+                                            scaleLabel: {
+                                                display: false,
+                                                //   labelString: 'Month'
+                                            }
+                                        }],
+                                        yAxes: [{
+                                            display: true,
+                                            scaleLabel: {
+                                                display: true,
+                                                // labelString: 'Value'
+                                            }
+                                        }]
+                                    }
+                                }
+                            };
+                        </script>
+                    </div>
+                    <script>
+                        window.onload = function () {
+                            var ctx2507 = document.getElementById('canvas2507').getContext('2d');
+                            window.myLine = new Chart(ctx2507, config2507);
+                        };
+                    </script>
+                </div>
+                <!-- 유튜버 그래프 -------------------- -->
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div><img src="../images/footer_logo.png" alt="footlogo"></div>
+        <span>ⓒ youtupia Inc. All rights reserved.</span>
+    </footer>
+
+
+</body>
+
+</html>
