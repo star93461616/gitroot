@@ -1,0 +1,214 @@
+section {
+    min-width: 1430px;
+  margin-bottom: 150px;;
+}
+
+
+body{
+    background-color: #f7f7f7;
+}
+.insert_price{
+position: relative;
+
+
+}
+.insert_price .yThumb{width: 42px;
+height: 42px;
+border-radius: 50%;
+display: inline-block;
+vertical-align: middle;
+margin-right: 18px;
+}
+.insert_price  p{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+      color: #222;
+      vertical-align: middle;
+}
+.insert_price .link{
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+margin-right: 20px;
+}
+.insert_price a{
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #464646;
+}
+h2{margin-top: 20px;
+margin-bottom: 30px;}
+
+.fee{
+    background-color: #fff;
+padding:30px 50px;
+}
+.fee .flexcontainer{padding-bottom: 8px;
+/* justify-content: space-between; */
+}
+.flexitem{
+width: 33%;
+
+}
+.flexitem h4, .flexitem div{
+    display: inline-block;
+}
+h4{
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;
+}
+.flexitem div input[type=text]{
+    padding: 13.5px 150px 12.5px 13px;
+    border-radius: 5px;
+    border: solid 1px #ebebeb;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.flexitem div  small{  font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;}
+    .flexcontainer{padding-bottom: 8px;}
+    input[type=radio]{
+        border: solid 1px #a5a5a5;
+        background-color: #fff;
+    }
+label{
+    font-size: 14px;
+    text-align: left;
+    color: #222;
+    margin-right: 30px;;
+  
+}
+form>div{display: inline-block; 
+padding-top:5px; padding-bottom: 5px;
+}
+    .fee textarea{
+        border: solid 1px #ebebeb;
+        background-color: #fff;
+        width: 100%;
+    }
+
+    .agency h4, .aboutMemo h4{margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .aboutMemo div{
+        text-align: right;
+        padding-top: 30px;
+    }
+    .aboutMemo div .greenbtn{border-radius: 0;}
+
+    .log{
+        margin: 33px 0 0;
+        padding: 32px 35.5px 49px 30px;
+        border-radius: 5px;
+        background-color: #fff;
+        text-align: left;
+    }
+    .log p{
+        font-size: 24px;
+        font-weight: bold;
+        color: #222;
+        margin-bottom: 40px;
+    }
+    #logTable{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    #logTable th{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: left;
+        font-size: 14px;
+        font-weight: bold;
+
+        color: #222;
+        border-bottom: 1px solid  #a5a5a5;;
+    }
+    #logTable th:nth-child(1),  #logTable th:nth-child(2){
+        width: 12%;
+    }
+ 
+    #logTable td:nth-child(1) input[type=text],  #logTable td:nth-child(2) input[type=text]{
+width: 72px;
+    }
+    #logTable th:nth-child(5){
+        width: 16%;
+    }
+    #logTable th:nth-child(6){
+        width: 30%;
+    }
+    #logTable td:nth-child(6)  input[type=text]{
+        width: 100%;
+    }
+    #logTable th:nth-child(7),  #logTable th:nth-child(8){
+        width: 5%;
+        text-align: center;
+    }
+    #logTable td{
+        padding-top: 5px;
+        padding-bottom:5px;
+        border-bottom: 1px solid  #ebebeb;;
+    }
+
+    #logTable input[type=text]{
+ padding:13px 17px;
+        border-radius: 5px;
+        border: solid 1px #ebebeb;
+        background-color: #fff;
+    }
+    #logTable input[type=button]{
+        margin: 15px 6px 7.5px 16px;
+        padding: 13px 18px;
+        border-radius: 5px;
+      
+    }
+    #logTable .correction{
+        color: #00c781;
+        border: solid 1px #00c781;
+        background-color: #fff;
+    }
+    #logTable .delete{
+        color: #464646;
+        border: solid 1px #464646;
+        background-color: #fff;
+    }
+    select{
+        font-size: 14px;
+        text-align: left;
+        color: #222;
+      padding:12px 15px;
+      border: solid 1px #ebebeb;
+    }
+
+
+
+/* 서브페이지 푸터들---- */
+
+footer{
+    padding-top: 45px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+ 
+}

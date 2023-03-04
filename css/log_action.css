@@ -1,0 +1,78 @@
+section {
+    min-width: 1430px;
+margin-bottom: 150px;
+}
+
+
+body{
+    background-color: #f7f7f7;
+}
+.insert_price{
+position: relative;
+
+
+}
+
+    .actionLog{
+        margin: 33px 0 0;
+        padding: 32px 35.5px 49px 30px;
+        border-radius: 5px;
+        background-color: #fff;
+        text-align: left;
+    }
+    .actionLog p{
+        font-size: 24px;
+        font-weight: bold;
+        color: #222;
+        margin-bottom: 40px;
+    }
+    #actionLogTable{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    #actionLogTable th{
+        font-size: 14px;
+        padding-bottom: 5px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #222;
+        border-bottom: 1px solid  #a5a5a5;
+    }
+    #actionLogTable th:nth-child(1){
+        width: 20%;
+    }
+    #actionLogTable th:nth-child(2),    #actionLogTable th:nth-child(3){
+        width: 20%;
+    }
+    #actionLogTable td{
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #222;
+        padding-top: 25px;
+        padding-bottom:25px;
+        border-bottom: 1px solid  #ebebeb;;
+    }
+
+
+
+
+
+/* 서브페이지 푸터들---- */
+
+footer{
+    padding-top: 45px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+ 
+}

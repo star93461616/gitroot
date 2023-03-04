@@ -1,0 +1,193 @@
+section {
+    min-width: 1430px;
+  margin-bottom: 150px;;
+}
+
+
+body{
+    background-color: #f7f7f7;
+}
+.insert_price{
+position: relative;
+
+
+}
+.insert_price .yThumb{width: 42px;
+height: 42px;
+border-radius: 50%;
+display: inline-block;
+vertical-align: middle;
+margin-right: 18px;
+}
+.insert_price  p{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+      color: #222;
+      vertical-align: middle;
+}
+.insert_price .link{
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+margin-right: 20px;
+}
+.insert_price a{
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #464646;
+}
+h2{margin-top: 20px;
+margin-bottom: 30px;}
+.introduceY{
+    padding: 38px 791.8px 38px 54.3px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+
+.alliance{
+    margin: 33px 0 0;
+    padding: 32px 35.5px 49px 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: left;
+}
+.alliance p{
+    font-size: 24px;
+    font-weight: bold;
+ display: inline-block;
+    text-align: left;
+    color: #222;
+}
+
+.alliance small{
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;
+    margin-left: 14px;
+}
+.alliance .flexcontainer{
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid  #f7f7f7;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.alliance .flexitem{
+  width: 28%;
+ 
+}
+.alliance .flexitem b{
+    font-size: 16px;
+    font-weight: bold;
+display: inline-block;
+    text-align: left;
+    color: #222;
+    width: 120px;
+}
+input[type=text]{
+    width: 260px;
+    padding: 13px 56px 13px 20px;
+    border-radius: 5px;
+    border: solid 1px #ebebeb;
+}
+.alliance .mailplace input[type=text]::placeholder,
+.alliance .nameplace input[type=text]::placeholder{
+    color: #222;
+}
+
+.alliancePrice {
+    text-align: right;
+    padding-top: 30px;
+}
+.alliancePrice input[type=submit] {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #fff;
+    padding: 14px 55px;
+    border-radius: 0;
+}
+
+
+
+    .history{
+        margin: 33px 0 0;
+        padding: 32px 35.5px 49px 30px;
+        border-radius: 5px;
+        background-color: #fff;
+        text-align: left;
+    }
+    .history p{
+        font-size: 24px;
+        font-weight: bold;
+        color: #222;
+        margin-bottom: 40px;
+    }
+    #historyTable{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    #historyTable th{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: left;
+        font-size: 14px;
+        font-weight: bold;
+
+        color: #222;
+        border-bottom: 1px solid  #a5a5a5;;
+    }
+
+    #historyTable th:nth-child(5){
+        width:45%;
+    }
+ 
+    #historyTable td{
+        font-size: 14px;
+        text-align: left;
+        color: #222;
+        padding-top: 20px;
+        padding-bottom:20px;
+        border-bottom: 1px solid  #ebebeb;;
+    }
+
+
+
+
+/* 서브페이지 푸터들---- */
+
+footer{
+    padding-top: 45px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+ 
+}

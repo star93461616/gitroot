@@ -100,6 +100,7 @@ a{
 	padding:17px 40px;
 	border-bottom: 1px solid  #ebebeb;
 overflow: hidden;
+background: #fff;
 }
 .nav-right {
     float: right;
@@ -159,6 +160,9 @@ clear: both;
 	background: #ebebeb;
 	padding:50px 400px;
 z-index: 200;
+
+
+
 }
 footer span{
 	display: block;

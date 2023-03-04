@@ -1,0 +1,106 @@
+section {
+    min-width: 1430px;
+    margin-bottom: 150px;
+}
+
+
+body{
+    background-color: #f7f7f7;
+}
+.insert_price{
+position: relative;
+
+
+}
+
+    .Sponsorship{
+        margin: 33px 0 0;
+        padding: 32px 35.5px 49px 30px;
+        border-radius: 5px;
+        background-color: #fff;
+        text-align: left;
+    }
+    .Sponsorship p{
+        font-size: 24px;
+        font-weight: bold;
+        color: #222;
+        margin-bottom: 40px;
+    }
+    #SponsorshipTable{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    #SponsorshipTable th{
+        font-size: 14px;
+        padding-bottom: 5px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #222;
+        border-bottom: 1px solid  #a5a5a5;
+    }
+    #SponsorshipTable th:nth-child(1),
+    #SponsorshipTable th:nth-child(2),
+    #SponsorshipTable th:nth-child(3){
+        width: 8%;
+    
+    }
+    #SponsorshipTable th:nth-child(4),
+    #SponsorshipTable th:nth-child(5){
+        width: 22%;
+      
+    }
+    #SponsorshipTable td{
+        font-size: 14px;
+   
+        text-align: center;
+        color: #222;
+        padding-top: 5px;
+        padding-bottom:5px;
+        border-bottom: 1px solid  #ebebeb;;
+    }
+    #SponsorshipTable td:nth-child(4) input[type=text],
+    #SponsorshipTable td:nth-child(5) input[type=text]{
+        width: 90%;
+  
+   
+    }
+    #SponsorshipTable td .chanelview{
+        color: #00c781;
+        text-decoration: underline;
+    }
+    #SponsorshipTable td .view{
+        color: #222;
+        padding: 10px 28px;
+        border-radius: 5px;
+        border: solid 1px #d5d5d5;
+    }
+    #SponsorshipTable input[type=text]{
+ padding:13px 17px;
+        border-radius: 5px;
+        border: solid 1px #ebebeb;
+        background-color: #fff;
+    }
+    #SponsorshipTable input[type=button]{
+        margin: 15px 6px 7.5px 16px;
+        padding: 13px 18px;
+        border-radius: 5px;
+      
+    }
+
+
+
+
+/* 서브페이지 푸터들---- */
+
+footer{
+    padding-top: 45px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+ 
+}

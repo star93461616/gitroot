@@ -62,7 +62,17 @@ position: relative;
         top:-20px;
         z-index: -1;
     }
+    .navWrap li .yactive a{
+        
+        font-weight: 400;
+color: #fff;
+    
+    }
 
+    .companyMenu .payactive a{
+        font-weight: 400;
+        color: #fff;
+    }
     .companyMenu{
         font-size: 14px;
         font-weight: normal;

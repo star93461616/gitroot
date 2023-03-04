@@ -1,0 +1,131 @@
+
+@charset "UTF-8";
+
+body{
+    background-color: #f7f7f7;
+}
+section{
+   
+    position: relative;
+    padding-left: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+
+ 
+}
+.inner{
+flex:1;
+padding-top: 4em;
+margin-bottom: 150px;
+}
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #222;
+margin-bottom: 32px;
+}
+.inner p{
+    font-size: 16px;
+    font-weight: bold;
+     color: #222;
+}
+.inner span{
+    font-size: 14px;
+    color: #222;
+}
+.cautionBox{
+    width: 812px;
+    background-color: #f5fdfb;
+    padding:25px 160px;
+    margin:0 auto
+    
+}
+.cautionBox em, .cautionBox p{
+    display: inline-block;
+    margin-bottom: 16px;;
+vertical-align: middle;
+}
+.cautionBox span{
+    display: block;
+    line-height: 1.5;
+}
+.cautionBox span b{
+    font-weight: bold;
+    color: #00c781;
+    text-decoration: underline;
+}
+.youtuberUrl{
+    padding: 40px 130px;
+    text-align: left;
+    width: 812px;
+    margin:0 auto
+}
+.youtuberUrl div p, .youtuberUrl div span,
+.youtuberUrl div input[type=text]{
+    display: inline-block;
+}
+.youtuberUrl div p{margin-right: 15px;}
+.youtuberUrl div span{  font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;
+    margin-right: 13px;
+}
+.youtuberUrl div input[type=text]{
+    padding:10px;
+    border-bottom: 1px solid  #d5d5d5;
+    background-color: #f7f7f7;;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a5a5a5;
+}
+
+.searchButn{margin:0 auto;
+    padding:30px;
+text-align: center;}
+.youtuberUrl div input[type=submit]{
+    border-radius:2px;
+    padding: 15.5px 102px;
+    background-color: #00c781;
+
+}
+
+.update{
+    background-color: #fff;
+    width: 812px;
+    padding:30px 140px;
+    margin:0 auto;
+}
+.update p{
+    margin-bottom: 16px;
+}
+.update span{
+    display: block;
+    line-height: 1.5;
+}
+.update span b{
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+/* 서브페이지 푸터들---- */
+
+footer{
+    padding-top: 45px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+ 
+}
