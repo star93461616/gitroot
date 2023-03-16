@@ -43,9 +43,6 @@ $( function() {
   var canvas = document.getElementById('signature-pad');
 
   function resizeCanvas() {
-      // 아주 이상한 이유로 100% 미만으로 축소하면,
-      // 일부 브라우저는 devicePixelRatio를 1 미만으로 보고합니다.
-      // 그러면 캔버스의 일부만 지워집니다.
     var ratio =  Math.max(window.devicePixelRatio || 1, 1);
     canvas.width = canvas.offsetWidth * ratio;
     canvas.height = canvas.offsetHeight * ratio;
