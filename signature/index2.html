@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서명받기2</title>
+</head>
+<style>
+    #signature { border:1px solid #000; }
+    #save, #clear { padding:5px 20px; border:0; color:#fff; background:#000; margin-top:5px; }
+    </style>
+<body>
+    
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/signature_pad/1.5.3/signature_pad.min.js"></script>
+    <canvas id="signature" width="600" height="200"></canvas>
+    <div>
+        <button id="save">Save</button>
+        <button id="clear">Clear</button>
+    </div>
+<script>
+
+    var canvas = $("#signature")[0];
+    var signature = new SignaturePad(canvas, {
+        minWidth : 2,
+        maxWidth : 2,
+        penColor : "rgb(0, 0, 0)"
+    });
+    
+    $("#clear").on("click", function() {
+        signature.clear();
+    });
+    
+    $("#save").on("click", function() {
+        if(signature.isEmpty()) {
+            alert("내용이 없습니다.");
+        } else {
+            var data = signature.toDataURL("image/png");
+            window.open(data, "test", "width=600, height=200, scrollbars=no");
+        }
+    });
+</script>
+</body>
+</html>
