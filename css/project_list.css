@@ -1,0 +1,213 @@
+section {
+    min-width: 1430px;
+    margin-bottom: 150px;
+}
+
+
+body{
+    background-color: #f7f7f7;
+}
+.insert_price{
+position: relative;
+
+
+}
+.projectTitle{
+    justify-content: space-between;
+
+}
+.projectTitle .flexitem:nth-child(1){
+    flex-grow: 1;
+}
+.projectTitle .flexitem:nth-child(2){
+    flex-grow: 2;
+    padding-right: 200px;
+ }
+ .projectTitle .flexitem:nth-child(3){
+    flex-grow: 1;
+ 
+ }
+.keyValue h4,
+.keyValue span{
+display: inline-block;
+}
+.keyValue h4{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;
+    margin-right: 16px;
+    margin-left: 30px;
+}
+.keyValue span input[type=text]{
+    font-size: 14px;
+    text-align: left;
+    color: #a5a5a5;
+    padding: 13px 17px;
+    border-radius: 5px;
+    border: solid 1px #ebebeb;
+    background-color: #fff;
+
+}
+.keyValue .greenbtn{
+    font-size: 14px;
+    color: #fff;
+  font-weight: normal;
+  border-radius: 5px;
+  padding: 13px 27px;
+  margin-left: 10px;
+}
+.projectTitle .search-container{
+    position: relative;
+
+}
+.projectTitle .search-container input[type=text] {
+    width: 350px;
+    font-size: 18px;
+    letter-spacing: -1.08px;
+    text-align: left;
+    color: #a5a5a5;
+    padding: 17px 22.7px 15px 20px;
+    border-radius: 25px;
+    border: solid 1px #d5d5d5;
+    background-color: #fff;
+    vertical-align: middle;
+
+
+}
+.projectTitle .search-container input[type=image] {
+    margin-left: -45px;
+    display: inline-block;
+    vertical-align: middle;
+}
+    .projectList{
+        margin: 33px 0 0;
+        padding: 32px 35.5px 49px 30px;
+        border-radius: 5px;
+        background-color: #fff;
+        text-align: left;
+    }
+    .projectList p{
+        font-size: 24px;
+        font-weight: bold;
+        color: #222;
+        margin-bottom: 40px;
+    }
+    #projectListTable{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    #projectListTable th{
+        font-size: 14px;
+        padding-bottom: 8px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #222;
+        border-bottom: 1px solid  #a5a5a5;
+    }
+    #projectListTable th:nth-child(1),
+    #projectListTable th:nth-child(2),
+    #projectListTable th:nth-child(3){
+        /* width: 8%; */
+    
+    }
+    #projectListTable th:nth-child(4),
+    #projectListTable th:nth-child(5){
+        /* width: 22%; */
+      
+    }
+    #projectListTable td{
+        font-size: 14px;
+        text-align: center;
+        color: #222;
+        padding-top: 10px;
+        padding-bottom:15px;
+        border-bottom: 1px solid  #ebebeb;;
+    }
+    #projectListTable td select{
+        padding: 10px 10.7px 10px 10px;
+        border-radius: 5px;
+        border: solid 1px #d5d5d5;
+        background-color: #fff;
+    }
+    #projectListTable td:nth-child(4) input[type=text],
+    #projectListTable td:nth-child(5) input[type=text]{
+        width: 90%;
+  
+   
+    }
+    .togo{
+
+        width: 16px;
+        height: 15px;
+        margin-left: 7px;
+    }
+    #projectListTable td .selectorlview{
+        color: #00c781;
+        text-decoration: underline;
+    }
+    #projectListTable td .view{
+        color: #222;
+        padding: 10px 28px;
+        border-radius: 5px;
+        border: solid 1px #d5d5d5;
+    }
+
+    #projectListTable input[type=text]{
+ padding:13px 17px;
+        border-radius: 5px;
+        border: solid 1px #ebebeb;
+        background-color: #fff;
+    }
+    #projectListTable input[type=button]{
+        margin: 15px 6px 7.5px 16px;
+        padding: 13px 18px;
+        border-radius: 5px;
+      
+    }
+
+#projectListTable input[type=submit].mod{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    border: solid 1px #00c781;
+    color: #00c781;
+    padding: 13px 14px;
+    background: #fff;
+    border-radius: 5px;
+}
+#projectListTable input[type=submit].del{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    border: solid 1px #464646;
+    color: #222;
+    padding: 13px 14px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+/* 서브페이지 푸터들---- */
+
+footer{
+    padding-top: 45px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+ 
+}

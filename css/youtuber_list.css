@@ -150,6 +150,9 @@ section {
     width: 32px;
     height: 32px;
 }
+.filters .flexcontainer{
+   justify-content: flex-start;
+}
 .filterBox{
     padding: 33px 30px;
     border-radius: 5px;
@@ -157,7 +160,7 @@ section {
     background-color: #fff;
 }
 .flexitem1, .flexitem3{
-    width: 30%;
+    width: 25%;
 
 }
 .flexitem2{
@@ -235,20 +238,21 @@ section {
 
 .filters hr{margin-bottom: 30px;}
 .flexcontainer{
-
-}
-.flexitem4{
-    width: 30%;
+align-items: stretch;
 }
 
 
-
-.flexitem5{
+/* .flexitem5{
     width:26%;
-}
+} */
 .flexitem4 h4, .flexitem6 h4{
+    font-size: 14px;
     display: inline-block;
     margin-right: 3px;
+    font-weight: bold;
+}
+.flexitem6{
+    width: 48%;
 }
 .flexitem6 small{
     display: inline-block;
@@ -283,9 +287,10 @@ section {
 }
 .inputWrap{
     padding: 18px;
-    box-shadow: 0 0 10px 0 #ebebeb;
     background-color: #fff;
- display: none;
+ /* display: none; */
+ margin-top: 20px;
+ margin-bottom: 20px;
 
 }
 .inputWrap em{
@@ -296,6 +301,8 @@ section {
     display: inline-block;
 
     line-height: 2;
+    max-width: 120px;
+    width: 100px;
 }
 .inputWrap input[type=checkbox]{
   width: 14px;
@@ -304,11 +311,11 @@ section {
 
  
 }
-#result{
+/* #result{
     font-size: 13px;
 margin-top: 10px;
  
-}
+} */
 
 
 select {
@@ -341,10 +348,13 @@ select {
     margin-top: 15px;
     border: solid 1px #d5d5d5;
     background-color: #fff;
+        margin-left: 10px;
+    margin-right: 10px;
+
  }
 
  .flexitem7, .flexitem8{
-    width:30%;
+    width:25%;
     font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
@@ -354,6 +364,7 @@ select {
     text-align: left;
     color: #464646;
 }
+
 .flexitem7 h4{
     display: inline-block;
 }
@@ -372,12 +383,29 @@ select {
     background-color: #fff;
     margin: 20px 2px 22px 6px;
 }
+.numberofList{
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+.numberofList h4{
+font-size: 14px;
+ font-weight: bold;
+    display: inline;
+}
+.numberofList label{
+    margin-left: 20px;
+}
+.serchcontainer{
+    justify-content: flex-end !important;
+}
 .flexitem9{
 
     width: 39%;
     text-align: right;
 vertical-align: middle;
 }
+
+
 .flexitem9 input[type=search]{
 
     padding: 19px 30px;
@@ -398,7 +426,8 @@ vertical-align: middle;
 
 
 /* youtuberList-------------------------- */
-.youtuberTitle{justify-content: space-between;
+.youtuberTitle{justify-content: space-between !important;
+    align-items: center;
 }
 .youtuberTitle h3, .youtuberTitle span{
     display: inline-block;
