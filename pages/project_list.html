@@ -17,7 +17,6 @@
 
     <script src="../js/jquery-3.6.3.min.js"></script>
 
-
 </head>
 
 
@@ -78,24 +77,24 @@
 
 
     <section>
-<div class="flexcontainer projectTitle">
-        <div class="flexitem">
-            <h2>프로젝트</h2>
-        </div>
-        <div class="flexitem keyValue">
-            <h4>프로젝트 키 등록</h4>
-            <span><input type="text" placeholder="로그통 Q_ID"></span>
-            <h4>프로젝트명</h4>
-            <span><input type="text" placeholder="프로젝트명 입력"></span>
-            <input class="greenbtn" type="submit" value="추가">
-        </div>
-        <div class="flexitem search-container">
-           
+        <div class="flexcontainer projectTitle">
+            <div class="flexitem">
+                <h2>프로젝트</h2>
+            </div>
+            <div class="flexitem keyValue">
+                <h4>프로젝트 키 등록</h4>
+                <span><input type="text" placeholder="로그통 Q_ID"></span>
+                <h4>프로젝트명</h4>
+                <span><input type="text" placeholder="프로젝트명 입력"></span>
+                <input class="greenbtn" type="submit" value="추가">
+            </div>
+            <div class="flexitem search-container">
+
                 <input type="text" placeholder="검색어를 입력해주세요." name="search_word" value="">
                 <input type="image" src="../images/search_ico.png">
-         
+
+            </div>
         </div>
-    </div>
 
         <div class="projectList">
             <p>프로젝트 리스트</p>
@@ -118,8 +117,11 @@
                     <td>1146</td>
                     <td><a class="selectorlview" href=""> 선정자 보기</a></td>
                     <td><input type="text" placeholder="프로젝트명을 입력해주세요."></td>
-                    <td><em>zHpIGsB7s27RbUPzSw9k</em><span><img class="togo" src="../images/togo.png" alt=""></span>
-                    </td>
+
+                   <!-- em 태그안에있는 리스트페이지 주소를 data-clipboard-text= " 동일하게 " 요 데이터값 안에 동일하게 넣어주세요 이부분값이 복사되는겁니다  -->
+                    <td> <em>zHpIGsB7s27RbUPzSw9k</em> <em class="copyPaste"
+                            data-clipboard-text="zHpIGsB7s27RbUPzSw9k"><img class="togo" src="../images/togo.png"
+                                alt=""></em></td>
                     <td><input type="text" placeholder="간단한 설명을 입력해주세요."></td>
                     <td>
 
@@ -150,48 +152,102 @@
                     <td><input class="del" type="submit" value="삭제"></td>
                 </tr>
                 <!-- 한건끝----- -->
-   <!-- 한건시작----- -->
-   <tr>
-    <td>1146</td>
-    <td><a class="selectorlview" href=""> 선정자 보기</a></td>
-    <td><input type="text" placeholder="프로젝트명을 입력해주세요."></td>
-    <td><em>zHpIGsB7s27RbUPzSw9k</em><span><img class="togo" src="../images/togo.png" alt=""></span>
-    </td>
-    <td><input type="text" placeholder="간단한 설명을 입력해주세요."></td>
-    <td>
+                <!-- 한건시작----- -->
+                <tr>
+                    <td>1146</td>
+                    <td><a class="selectorlview" href=""> 선정자 보기</a></td>
+                    <td><input type="text" placeholder="프로젝트명을 입력해주세요."></td>
+                       <!-- em 태그안에있는 리스트페이지 주소를 data-clipboard-text= " 동일하게 " 요 데이터값 안에 동일하게 넣어주세요 이부분값이 복사되는겁니다  -->
+                    <td> <em>zHpIGsB7s27RbUPzSw9k</em> <em class="copyPaste"
+                            data-clipboard-text="zHpIGsB7s27RbUPzSw9k"><img class="togo" src="../images/togo.png"
+                                alt=""></em></td>
+                    <td><input type="text" placeholder="간단한 설명을 입력해주세요."></td>
+                    <td>
 
-        <form method="POST" action="" target="">
-            <select id="" name="">
-                <option value="0" selected="">공개</option>
-                <option value="1">비공개</option>
-            </select>
+                        <form method="POST" action="" target="">
+                            <select id="" name="">
+                                <option value="0" selected="">공개</option>
+                                <option value="1">비공개</option>
+                            </select>
 
-        </form>
+                        </form>
 
-    </td>
-    <td>
-        <form method="POST" action="" target="">
-            <select id="" name="">
-                <option value="0" selected="">대기</option>
-                <option value="1">모집중</option>
-                <option value="2">등록중</option>
-                <option value="3">종료</option>
-            </select>
+                    </td>
+                    <td>
+                        <form method="POST" action="" target="">
+                            <select id="" name="">
+                                <option value="0" selected="">대기</option>
+                                <option value="1">모집중</option>
+                                <option value="2">등록중</option>
+                                <option value="3">종료</option>
+                            </select>
 
-        </form>
+                        </form>
 
-    </td>
-    <td>2022-09-12
-        19:14:01</td>
-    <td><input class="mod" type="submit" value="MOD"></td>
-    <td><input class="del" type="submit" value="삭제"></td>
-</tr>
-<!-- 한건끝----- -->
+                    </td>
+                    <td>2022-09-12
+                        19:14:01</td>
+                    <td><input class="mod" type="submit" value="MOD"></td>
+                    <td><input class="del" type="submit" value="삭제"></td>
+                </tr>
+                <!-- 한건끝----- -->
+                <!-- 한건시작----- -->
+                <tr>
+                    <td>1146</td>
+                    <td><a class="selectorlview" href=""> 선정자 보기</a></td>
+                    <td><input type="text" placeholder="프로젝트명을 입력해주세요."></td>
+                       <!-- em 태그안에있는 리스트페이지 주소를 data-clipboard-text= " 동일하게 " 요 데이터값 안에 동일하게 넣어주세요 이부분값이 복사되는겁니다  -->
+                    <td> <em>zHpIGsB7s27RbUPzSw9k</em> <em class="copyPaste"
+                            data-clipboard-text="zHpIGsB7s27RbUPzSw9k"><img class="togo" src="../images/togo.png"
+                                alt=""></em></td>
+                    <td><input type="text" placeholder="간단한 설명을 입력해주세요."></td>
+                    <td>
+
+                        <form method="POST" action="" target="">
+                            <select id="" name="">
+                                <option value="0" selected="">공개</option>
+                                <option value="1">비공개</option>
+                            </select>
+
+                        </form>
+
+                    </td>
+                    <td>
+                        <form method="POST" action="" target="">
+                            <select id="" name="">
+                                <option value="0" selected="">대기</option>
+                                <option value="1">모집중</option>
+                                <option value="2">등록중</option>
+                                <option value="3">종료</option>
+                            </select>
+
+                        </form>
+
+                    </td>
+                    <td>2022-09-12
+                        19:14:01</td>
+                    <td><input class="mod" type="submit" value="MOD"></td>
+                    <td><input class="del" type="submit" value="삭제"></td>
+                </tr>
+                <!-- 한건끝----- -->
             </table>
 
 
         </div>
 
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+        <script>
+            var clipboard = new ClipboardJS('.copyPaste');
+            clipboard.on('success', function () {
+                alert('복사되었습니다');
+            });
+            clipboard.on('error', function () {
+                alert('Fail');
+            });
+        </script>
 
     </section>
 
