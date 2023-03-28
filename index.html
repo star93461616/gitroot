@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Youtupia</title>
+  <link rel=stylesheet type="text/css" href="./css/reset_new.css">
+  <link rel=stylesheet type="text/css" href="./css/main_new.css">
+  <link rel=stylesheet type="text/css" href="./css/mainfooter_new.css">
+
+</head>
+
+<body>
+  <main class="main_visual">
+
+
+    <div class="inner">
+      <h1> <a href="index.html"><img src="./images/gnb_logo_2023-02-22 (1)/gnb_logo.png" alt="유튜피아"> </a></h1>
+      <h2>영상 제작 의뢰 가능한<br>
+        <span>유튜버를 검색</span>해보세요!</h2>
+      <h3>원하시는 카테고리 검색 후 최적의 유튜버를 찾아보세요!</h3>
+    </div>
+  </main>
+  <div class="inner">
+    <div class="available">
+      <img src="./images/youtube_ico.png" alt="영상제작 의뢰가능한 유튜버 수">
+      <p>영상 제작 의뢰 가능한 유튜버 수</p>
+      <strong>48,208 명</strong>
+      <div class="findYoutuber">
+
+        <div class="findYoutuberTitle1"> 관심분야</div>
+        <div class="findYoutuberCategory">
+          <input type="radio" name="subject" value="2" id="subject_1"><span>ASMR</span>
+          <input type="radio" name="subject" value="4" id="subject_2"><span>BJ,Creator</span>
+          <input type="radio" name="subject" value="14" id="subject_3"><span>IT</span>
+          <input type="radio" name="subject" value="8" id="subject_4"><span>VLOG</span>
+          <input type="radio" name="subject" value="29" id="subject_5"><span>건강,의학</span>
+          <input type="radio" name="subject" value="30" id="subject_6"><span>건축,인테리어</span>
+          <input type="radio" name="subject" value="13" id="subject_7"><span>게임</span>
+          <input type="radio" name="subject" value="9" id="subject_8"><span>교육</span>
+          <input type="radio" name="subject" value="19" id="subject_9"><span>그림, 만화</span>
+          <input type="radio" name="subject" value="25" id="subject_10"><span>낚시</span>
+          <input type="radio" name="subject" value="1" id="subject_11"><span>동물</span>
+          <input type="radio" name="subject" value="11" id="subject_12"><span>먹방</span>
+          <input type="radio" name="subject" value="16" id="subject_13"><span>메이킹</span>
+          <input type="radio" name="subject" value="5" id="subject_14"><span>문학</span>
+          <input type="radio" name="subject" value="3" id="subject_15"><span>뷰티</span>
+          <input type="radio" name="subject" value="44" id="subject_16"><span>숏드라마</span>
+          <input type="radio" name="subject" value="22" id="subject_17"><span>스포츠</span>
+          <input type="radio" name="subject" value="21" id="subject_18"><span>슬라임</span>
+          <input type="radio" name="subject" value="10" id="subject_19"><span>엔터테인먼트</span>
+          <input type="radio" name="subject" value="24" id="subject_20"><span>여행,해외</span>
+          <input type="radio" name="subject" value="31" id="subject_21"><span>연애</span>
+          <input type="radio" name="subject" value="17" id="subject_22"><span>영화</span>
+          <input type="radio" name="subject" value="18" id="subject_23"><span>음악</span>
+          <input type="radio" name="subject" value="33" id="subject_24"><span>인터뷰</span>
+          <input type="radio" name="subject" value="6" id="subject_25"><span>자동차</span>
+          <input type="radio" name="subject" value="23" id="subject_26"><span>재테크</span>
+          <input type="radio" name="subject" value="20" id="subject_27"><span>정치</span>
+          <input type="radio" name="subject" value="28" id="subject_28"><span>출산,육아</span>
+          <input type="radio" name="subject" value="26" id="subject_29"><span>캠핑</span>
+          <input type="radio" name="subject" value="7" id="subject_30"><span>쿡방</span>
+          <input type="radio" name="subject" value="15" id="subject_31"><span>키즈</span>
+          <input type="radio" name="subject" value="40" id="subject_32"><span>패션</span>
+        </div>
+
+
+
+        <div class="findYoutuberTitle2">구독자</div>
+
+        <div class="findYoutuberCategory findYoutuberCategory2">
+
+          <input type="radio" name="sub_count" value="1" id="sub_count_0"> <span>1000 ~ 1만</span>
+          <input type="radio" name="sub_count" value="2" id="sub_count_1"> <span>1 ~ 5만</span>
+          <input type="radio" name="sub_count" value="3" id="sub_count_2"> <span>5 ~ 10만</span>
+          <input type="radio" name="sub_count" value="4" id="sub_count_3"> <span>10 ~ 30만</span>
+          <input type="radio" name="sub_count" value="5" id="sub_count_4"> <span>30 ~ 50만</span>
+          <input type="radio" name="sub_count" value="6" id="sub_count_5"> <span>50만 이상</span>
+
+        </div>
+      </div>
+
+      <input type="submit" value="검색결과 보기">
+    </div>
+
+
+
+    <div class="searchResult">
+      <strong>검색 결과</strong>
+      <p>검색결과가 <span>총 192 건</span> 이 있습니다.</p>
+
+
+
+      <table id="searcher" summary="유튜버상세보기가 가능한 테이블">
+ 
+        <tbody>
+          <tr>
+            <th>유튜버명</th>
+            <th class="searcher2">구독자 수</th>
+            <th class="searcher3">동영상 수</th>
+            <th class="searcher4">총 조회 수</th>
+            <th class="searcher5">상세보기</th>
+
+          </tr>
+          <tr>
+            <td class="searcher1"> <img
+                src="https://yt3.ggpht.com/0NSDQdzF6oKcJte9SeAhxkT-OXmmhn_euGdqGa4hl0bKssWIkuVlpBqTMtWoVfUJrhUnuKgT=s240-c-k-c0x00ffffff-no-rj"
+                width="35">스물스물
+
+            </td>
+            <td>100,000</td>
+            <td>152</td>
+            <td>28,825,951</td>
+            <td><a href="https://youtupia.co.kr/page/dt.php?yid=6921" target="_blank"><button>상세보기</button></a></td>
+
+
+
+
+          </tr>
+          <tr>
+            <td class="searcher1"> <img
+                src="https://yt3.ggpht.com/ytc/AMLnZu9nk-KtPgk3ciMsefB8d_65ogZWhnWvFwSkJ1uwRw=s240-c-k-c0x00ffffff-no-rj"
+                width="35">서호아조시
+
+            </td>
+            <td>98,000</td>
+            <td>29</td>
+            <td>5,385,334</td>
+            <td><a href="https://youtupia.co.kr/page/dt.php?yid=1020216" target="_blank"><button>상세보기</button></a></td>
+
+
+
+
+          </tr>
+          <tr>
+            <td class="searcher1"> <img
+                src="https://yt3.ggpht.com/ytc/AMLnZu9i3P_b1zhz3i5SwW2agQWsUvWmhIFtokXGmBwawQ=s240-c-k-c0x00ffffff-no-rj"
+                width="35">데이라잇 쇼
+            </td>
+            <td>97,300</td>
+            <td>195</td>
+            <td>40,265,489</td>
+            <td><a href="https://youtupia.co.kr/page/dt.php?yid=1031278" target="_blank"><button>상세보기</button></a></td>
+
+          </tr>
+          <tr>
+            <td class="searcher1"> <img
+                src="https://yt3.ggpht.com/ytc/AMLnZu-i7bNXLPnzP1OsX0WV-bvhXTG3mbVIm8_lATW_9g=s240-c-k-c0x00ffffff-no-rj"
+                width="35">해롱툰
+
+            </td>
+            <td>95,700</td>
+            <td>285</td>
+            <td>43,976,386</td>
+            <td><a href="https://youtupia.co.kr/page/dt.php?yid=1017244" target="_blank"><button>상세보기</button></a></td>
+
+          </tr>
+
+
+        </tbody>
+      </table>
+
+
+      <div class="pagination">
+        <a href="#" >&laquo;</a>	
+        <a href="#">&lt;</a>
+        <a href="#" class="currentPage">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&gt;</a>
+        <a href="#">&raquo;</a>
+      </div>
+
+    </div>
+
+  </div>
+
+
+<footer>
+  <div class="inner">
+    <div class="flexcontainer">
+      <div class="flexitem"><img src="./images/footer_logo.png" alt="유튜피아 푸터로고"></div>
+      <div class="flexitem">
+        <div><span>회사명 : (주)노하우미디어</span><br><span>대표 : 최현석</span></div>
+        <div class="address"><span>주소 : 서울특별시 강남구 강남대로 114길 11, 3층 (논현동, 나래빌딩)</span><br>
+          <span class="businessNum">사업자 등록번호 : 248-81-01895 </span> <span>메일: logtong@logtong.co.kr</span>
+        </div>
+        <div><span>전화 : 070-4300-2770</span></div>
+        <span class="copyright">ⓒ youtupia Inc. All rights reserved.</span>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+
+</html>

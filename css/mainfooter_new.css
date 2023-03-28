@@ -1,0 +1,150 @@
+@charset "UTF-8";  
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 900;
+	font-display: swap;
+	src: local('Pretendard Black'), url('../font/Pretendard-Black.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 800;
+	font-display: swap;
+	src: local('Pretendard ExtraBold'), url('../font/Pretendard-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 700;
+	font-display: swap;
+	src: local('Pretendard Bold'), url('../font/Pretendard-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 600;
+	font-display: swap;
+	src: local('Pretendard SemiBold'),url('../font/Pretendard-SemiBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 500;
+	font-display: swap;
+	src: local('Pretendard Medium'),url('../font/Pretendard-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 400;
+	font-display: swap;
+	src: local('Pretendard Regular'),  url('../font/Pretendard-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 300;
+	font-display: swap;
+	src: local('Pretendard Light'), url('../font/Pretendard-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 200;
+	font-display: swap;
+	src: local('Pretendard ExtraLight'), url('../font/Pretendard-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 100;
+	font-display: swap;
+	src: local('Pretendard Thin'), url('../font/Pretendard-Thin.woff') format('woff');
+}
+
+* {
+    font-family: 'Pretendard';
+    box-sizing: border-box;
+}
+.inner{
+    width: 1280px;
+}
+.flexcontainer {
+	display: flex;
+align-items: stretch;
+align-items: center;
+justify-content: center;
+}
+.flexitem{
+    flex-basis: auto;
+}
+input[type=text], input[type=button], input[type=submit]{
+	border: 0;
+	cursor: pointer;
+
+}
+.greenbtn{
+    background-color: #00c781;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+
+/* footer--------------------- */
+
+footer{
+  text-align: left;
+  background-color: #ebebeb;
+  padding-top:45px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+footer .flexcontainer{
+  margin-right: auto;
+  padding-left: 0;
+	align-items: flex-start;
+	/* justify-content: flex-start; */
+}
+footer .flexcontainer .flexitem:nth-child(1){
+ flex: 0.2;
+ padding-top: 10px;
+}
+footer .flexcontainer .flexitem:nth-child(2){
+  flex: 0.8;
+ }
+ footer .flexcontainer .flexitem:nth-child(2)>div{
+
+	display: inline-block;
+ }
+ footer .flexcontainer .flexitem:nth-child(2) .address{
+	margin-left: 70px;
+	margin-right: 60px;
+ }
+ footer .flexcontainer .flexitem:nth-child(2) span{
+	font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+
+  color: #8c8b9b;
+ }
+ footer .flexcontainer .flexitem:nth-child(2) span.businessNum{
+margin-right: 60px;
+ }
+ .copyright{
+	display: block;
+
+	color: #a5a5a5;
+	text-align: left;
+	padding-top: 18px;
+ }
