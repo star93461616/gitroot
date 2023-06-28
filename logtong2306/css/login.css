@@ -1,0 +1,120 @@
+@charset "UTF-8";  
+
+h2{
+    font-size: 52px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  margin-bottom: 56px;
+}
+.login{padding-top: 160px;
+padding-bottom: 160px;
+}
+.login .flexcontainer{
+
+  align-items: flex-start;
+}
+.login .flexcontainer .flexitem:nth-child(1){
+  margin-right: 70px;
+}
+.logincontainer{
+  text-align: right;
+}
+.logincontainer p, .signUpcontainer p{
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  margin-bottom: 7px;
+}
+.logincontainer input[type=text],
+.logincontainer input[type=password]{
+  display: block;
+  border-radius: 2px;
+  border: solid 1px #d7d7d7;
+  background-color: #fff;
+  padding: 8px 20px;
+  width: 297px;
+  height: 46px;
+  margin-bottom: 7px;
+}
+.logincontainer input[type=text]::placeholder,
+.logincontainer input[type=password]::placeholder{
+  color: #acacac;
+}
+.logincontainer button[type=submit]{
+  display: block;
+  width: 297px;
+  height: 46px;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 3.2px;
+  text-align: center;
+  color: #fff;
+  background-color: #003281;
+  border:none
+}
+.logincontainer button[type=submit] img{
+  display: inline-block;
+  vertical-align: top;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.logincontainer label{
+display: block;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #24272b;
+ margin-top: 17px;
+}
+.signUpcontainer button{
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.signUpcontainer button[type=submit]{
+  display: block;
+  width: 297px;
+  height: 46px;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 3.2px;
+  text-align: center;
+  color: #fff;
+  background-color: #6e6e6e;
+  border:none;
+  margin-bottom: 26px;
+}
+.signUpcontainer button[type=submit] img{
+  display: inline-block;
+  vertical-align: top;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 4px;
+}

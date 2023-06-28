@@ -1,0 +1,158 @@
+@charset "UTF-8";  
+
+.guideTop{
+  background-color: #eaf0f4;
+  padding: 40px 33px;
+  position: relative;
+  text-align: left;
+  margin-top: 160px;
+}
+.guideTop>div{
+  display: inline-block;
+  vertical-align: top;
+}
+.guideTop div:nth-child(1){
+  background-color: #fff;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 18px;
+padding-left: 18px;
+box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.05);
+}
+.guideTop div:nth-child(1) img{
+ display: block;
+}
+
+.guideTop div h2{
+  font-size: 28px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  margin-right: 190px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+.guideTop div:nth-child(3){
+padding-top: 13px;
+}
+.guideTop div:nth-child(4){
+  padding-top: 13px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #00447a;
+}
+
+.guideBottom{
+  padding: 35px 40px;
+}
+#guideTable {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+#guideTable th, #guideTable td{
+  border-bottom: solid 1px rgba(0, 0, 0, 0.06);;
+}
+#guideTable th{
+  width: 200px;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  vertical-align: top;
+  color: #000;
+  padding-top: 18px;padding-bottom: 18px;
+}
+#guideTable td {
+  padding-top: 18px;padding-bottom: 18px;
+}
+#guideTable td p{
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+
+
+}
+#guideTable td span{
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #025394;
+  padding: 5px 14px 5px 16px;
+  border-radius: 30px;
+  background-color: #eaf0f4;
+
+
+}
+#guideTable td span i{
+  margin-right: 6px;
+}
+
+#guideTable td form{
+  margin-top: 12px;
+}
+
+#guideTable td div h4{
+  display: inline-block;
+  vertical-align: middle;
+  width: 120px;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+}
+#guideTable td div small{
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #959595;
+}
+
+input[type=text], textarea, input[type=number],
+input[type=password] {
+  display: inline-block;
+  vertical-align: top;
+  padding:10px 12px;
+  border-radius: 2px;
+  border: solid 1px #eaeaea;
+
+}
+select{
+
+  padding:9px 12px;
+  border-radius: 2px;
+  border: solid 1px #eaeaea;
+
+}

@@ -1,0 +1,131 @@
+@charset "UTF-8";  
+
+/* 기본회원정보 및 비번관련 페이지 style------------- */
+.basicinformation{
+  padding: 35px 40px;
+  border-radius: 2px;
+  border: solid 1px #eaeaea;
+  width: 816px;
+}
+.basicinformation h3{
+  font-size: 28px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+}
+.basicinformation form{
+  margin-bottom: 60px;
+}
+.basicinformation .length{
+  display: inline-block;
+  vertical-align: top;
+  width:360px;
+
+}
+input[type=text], textarea, input[type=number],
+input[type=password] {
+  width: 100%;
+  padding:10px 12px;
+  border-radius: 2px;
+  border: solid 1px #eaeaea;
+
+}
+select{
+  width: 100%;
+  padding:9px 12px;
+  border-radius: 2px;
+  border: solid 1px #eaeaea;
+
+}
+.length div input[type=checkbox]{
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+vertical-align: middle;
+ border:1px solid #6e6e6e;
+  margin-top: 30px;
+
+
+}
+.length .col-75 span{
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #24272b;
+  display: inline-block;
+margin-right: 10px;
+padding-left: 5px;
+}
+label {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.buttonWrap{
+
+  text-align: right;
+  margin-top: 16px;
+}
+input[type=submit] {
+
+  cursor: pointer;
+
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.col-15 {  
+  float: left;
+  width: 16%;
+  margin-top: 6px;
+}
+
+.col-25 {
+  float: left;
+  width: 33%;
+  margin-top: 6px;
+}
+.col-30 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-75 {
+  float: left;
+  width: 60%;
+  margin-top: 6px;
+}
+.col-60 {
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+}
+.radiocol-75{
+  margin-top: 15px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
