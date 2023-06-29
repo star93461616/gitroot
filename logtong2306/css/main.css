@@ -6,7 +6,7 @@
     background-image: linear-gradient(to bottom, #fff 0%, #eaf0f4 100%);
 
     padding-top: 160px;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
 }
 .sectionTitle{
    position: relative;
@@ -122,4 +122,90 @@ margin-bottom: 18px;
     border-radius: 30px;
     background-color: #eaf0f4;
     margin-right: 20px;
+}
+
+.buttonWrap{
+    text-align: center;
+}
+.buttonWrap a{
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #05121a;
+padding:8px 20px;
+}
+.buttonWrap a :indeterminate{
+    font-size: 14px;
+}
+
+.mainbanner{
+    margin-top: -180px;
+}
+.mainbanner .innerWrap{
+    background: url(../images/mainbanner.png) no-repeat;
+    background-size: cover;
+    width: 1189px;
+    height: 387px;
+    padding-left:75px;
+    padding-top: 145px;
+    position: relative;
+   margin-bottom: 220px;
+}
+.mainbanner .innerWrap div{
+    display: inline-block;
+    vertical-align: top;
+}
+.mainbanner .innerWrap div h3{
+    font-size: 38px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    margin-right: 48px;
+}
+.mainbanner .innerWrap div a{
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    padding: 8px 28px;
+    box-shadow: 20px 30px 40px 0 rgba(0, 0, 0, 0.02);
+
+}
+.mainbanner .innerWrap div h4{
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: -0.22px;
+    text-align: left;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+.mainbanner .innerWrap div span{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: -0.28px;
+    text-align: left;
+    color: #fff;
+    margin-top: 5px;
+    display: block;
 }
