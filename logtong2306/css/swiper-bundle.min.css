@@ -18,13 +18,31 @@
 }
 :root {
     --swiper-theme-color:  #025394;;
+    --swiper-theme-color2:  #fff;;
 }
 .swiper,
 swiper-container {
-    margin-left: auto;
+
+   margin-left: auto;
     margin-right: auto;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block;
+    padding-left: 7%;
+    padding-right: 7%;
+
+
+}
+.creator .swiper,
+swiper-container {
+
+   margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    /* overflow: hidden; */
     list-style: none;
     padding: 0;
     z-index: 1;
@@ -32,17 +50,35 @@ swiper-container {
 }
 .swiper-vertical > .swiper-wrapper {
     flex-direction: column;
+    border:1px solid black
 }
 .swiper-wrapper {
     position: relative;
-    width: 100%;
+    width: 1170px;
     height: 100%;
+    overflow: hidden;
     z-index: 1;
     display: flex;
     transition-property: transform;
     transition-timing-function: var(--swiper-wrapper-transition-timing-function,initial);
     box-sizing: content-box;
     padding-bottom: 100px;
+    align-items: center;
+
+}
+.mySwiper2 .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    transition-timing-function: var(--swiper-wrapper-transition-timing-function,initial);
+    box-sizing: content-box;
+    padding-bottom: 150px;
+    align-items: center;
+
 }
 .swiper-android .swiper-slide,
 .swiper-wrapper {
@@ -58,6 +94,7 @@ swiper-container {
 swiper-slide {
     flex-shrink: 0;
     width: 100%;
+
     height: 100%;
     position: relative;
     transition-property: transform;
@@ -232,7 +269,6 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
 .swiper-button-next,
 .swiper-button-prev {
 
-    border: solid 2px #bdbdbd;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -242,13 +278,41 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
     width: calc(var(--swiper-navigation-size)/ 44 * 27);
     height: var(--swiper-navigation-size);
     margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    margin-bottom:20px;
+
     z-index: 10;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--swiper-navigation-color,var(--swiper-theme-color));
+ 
 }
+
+.mySwiper2 .swiper-button-next,
+.mySwiper2 .swiper-button-prev {
+
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: var(--swiper-navigation-top-offset,40%);
+
+    width: calc(var(--swiper-navigation-size)/ 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    margin-bottom:20px;
+
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color,var(--swiper-theme-color));
+ 
+}
+
+
 .swiper-button-next.swiper-button-disabled,
 .swiper-button-prev.swiper-button-disabled {
     opacity: 0.35;
@@ -273,24 +337,53 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
     letter-spacing: 0;
     font-variant: initial;
     line-height: 1;
+ 
 }
 .swiper-button-prev,
 .swiper-rtl .swiper-button-next {
-    left: var(--swiper-navigation-sides-offset,10px);
+    left: var(--swiper-navigation-sides-offset,2%);
     right: auto;
+
 }
+
+
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
-    content: 'prev';
+    content: url( "../images/left_Default.png" );
 }
+
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
-    right: var(--swiper-navigation-sides-offset,10px);
+    right: var(--swiper-navigation-sides-offset,2%);
     left: auto;
 }
+.mySwiper2 .swiper-button-prev,
+.mySwiper2 .swiper-rtl .swiper-button-next {
+    left: var(--swiper-navigation-sides-offset,38%);
+    right: auto;
+
+}
+
+
+.mySwiper2 .swiper-button-prev:after,
+.mySwiper2 .swiper-rtl .swiper-button-next:after {
+    content: url( "../images/left_orange.png" );
+}
+
+.mySwiper2 .swiper-button-next,
+.mySwiper2 .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset,8%);
+    left: auto;
+}
+
+
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
-    content: 'next';
+    content: url( "../images/Right_Default.png" );
+}
+.mySwiper2 .swiper-button-next:after,
+.mySwiper2 .swiper-rtl .swiper-button-prev:after {
+    content: url( "../images/Right_orange.png" );
 }
 .swiper-button-lock {
     display: none;
@@ -318,6 +411,17 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
     left: 0;
     width: 100%;
 }
+.swiper-horizontal > .swiper-pagination-bullets,
+.mySwiper2 .swiper-pagination-bullets.swiper-pagination-horizontal,
+.mySwiper2 .swiper-pagination-custom,
+.mySwiper2 .swiper-pagination-fraction {
+    /* bottom: var(--swiper-pagination-bottom,8px);
+    top: var(--swiper-pagination-top,auto); */
+    left: -5%;
+    width: 100%;
+    bottom:25%
+}
+
 .swiper-pagination-bullets-dynamic {
     overflow: hidden;
     font-size: 0;
@@ -352,6 +456,14 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
     background: var(--swiper-pagination-bullet-inactive-color, #025394);
     opacity: var(--swiper-pagination-bullet-inactive-opacity, .5);
 }
+.mySwiper2 .swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,8px));
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,8px));
+    display: inline-block;
+    border-radius: var(--swiper-pagination-bullet-border-radius,50%);
+    background: var(--swiper-pagination-bullet-inactive-color, #fff);
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, .5);
+}
 button.swiper-pagination-bullet {
     border: none;
     margin: 0;
@@ -369,6 +481,10 @@ button.swiper-pagination-bullet {
 .swiper-pagination-bullet-active {
     opacity: var(--swiper-pagination-bullet-opacity, 1);
     background: var(--swiper-pagination-color,var(--swiper-theme-color));
+}
+.mySwiper2 .swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: var(--swiper-pagination-color,var(--swiper-theme-color2));
 }
 .swiper-pagination-vertical.swiper-pagination-bullets,
 .swiper-vertical > .swiper-pagination-bullets {
@@ -531,10 +647,12 @@ swiper-container .swiper-notification {
 }
 .swiper-grid > .swiper-wrapper {
     flex-wrap: wrap;
+
 }
 .swiper-grid-column > .swiper-wrapper {
     flex-wrap: wrap;
     flex-direction: column;
+   
 }
 .swiper-fade.swiper-free-mode .swiper-slide {
     transition-timing-function: ease-out;
