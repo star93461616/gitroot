@@ -33,7 +33,7 @@ margin-top: 5px;
 
 .youtubeCampaign .flexcontainer{
     flex-wrap: wrap;
-    align-items: stretch;
+    align-items: flex-start;
     justify-content: space-between!important;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -409,7 +409,6 @@ padding-top:220px;
 
 
 .creatorWrap{
-  border:1px solid #fff;
   padding-top: 80px;
   /* overflow: hidden; */
 }
@@ -480,4 +479,156 @@ padding-top: 8px;
   border-radius: 30px;
   background-color: #eaf0f4;
   text-align: center;
+}
+
+
+
+/* 숏폼컨텐츠/캠페인----------------------- */
+.shortForm{
+  padding-bottom: 160px;
+  
+  background-image: linear-gradient(to bottom, #fff 0%, #eaf0f4 100%);
+
+}
+.shortForm .flexcontainer{
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between!important;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.shortForm .flexitem {
+
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 20px 30px 40px 0 rgba(0, 0, 0, 0.02);
+  border: solid 1px #bdbdbd;
+  background-color: #fff;
+  width: 268px;
+  overflow: hidden;
+  margin-bottom: 40px;
+
+}
+.itemInfor{
+  padding: 20px 10px;;
+}
+.itemInfor .tag{
+  margin-bottom: 10px;
+}
+.itemInfor p{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  overflow: hidden;  	
+  text-overflow: ellipsis;  
+  white-space: wrap; 
+  word-break:break-all;
+  width: 230px;
+  height: 65px;
+}
+#shortsschedule{
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 18px;
+margin-bottom: 18px;
+}
+.shortsstatus {
+  position: relative;
+}
+.shortsstatus img{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.shortsstatus em{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #025394;
+}
+.shortsstatus span{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #025394;
+  padding: 2px 10px;
+  border-radius: 30px;
+  background-color: #eaf0f4;
+  margin-right: 20px;
+}
+
+.buttonWrap{
+  text-align: center;
+}
+.buttonWrap a{
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #05121a;
+padding:8px 20px;
+}
+.buttonWrap a :indeterminate{
+  font-size: 14px;
+}
+
+/* -- 네이버 인플루언서캠페인 -------------  */
+
+.Ninfluencer{
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.Ninfluencer .sectionTitle img{
+margin-top: 0;
+}
+
+
+
+
+/* 모집중인캠페인------------------------ */
+
+.Ingcampaign{
+  padding-top: 160px;
+  padding-bottom: 160px;
+   background-image: linear-gradient(to top, #eaf0f4 100%, #fff 0%);
+
+}
+.Ingcampaign h2 span{
+  font-size: 28px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
 }

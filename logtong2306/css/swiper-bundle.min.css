@@ -411,7 +411,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
     left: 0;
     width: 100%;
 }
-.swiper-horizontal > .swiper-pagination-bullets,
+.mySwiper2 .swiper-horizontal > .swiper-pagination-bullets,
 .mySwiper2 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .mySwiper2 .swiper-pagination-custom,
 .mySwiper2 .swiper-pagination-fraction {
