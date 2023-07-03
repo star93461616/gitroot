@@ -1,0 +1,144 @@
+@charset "UTF-8";  
+
+/* 기본회원정보 및 비번관련 페이지 style------------- */
+.youtubeInfo{
+  padding: 35px 40px;
+  border-radius: 2px;
+  border: solid 1px #eaeaea;
+  width: 816px;
+}
+.youtubeInfo h3{
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+}
+#youtubeInfoTable{
+  width: 100%;
+  
+}
+#youtubeInfoTable th{
+  width: 130px;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  background-color: #eaeaea;
+  padding:25px 20px;
+}
+#youtubeInfoTable td{
+  width: 607px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+  padding:24px 20px;
+  position: relative;
+  border-bottom: 1px solid  #bdbdbd;;
+}
+#youtubeInfoTable td em,
+#youtubeInfoTable td a{
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+float: right;
+margin-top:5px;
+}
+#youtubeInfoTable td a{
+  margin-top:0;
+}
+#youtubeInfoTable td a{
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+  padding:10px;
+}
+#youtubeInfoTable td .flexitem span img{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+}
+#youtubeInfoTable td .flexitem span{
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #025394;
+  padding: 2px 10px;
+  border-radius: 30px;
+  background-color: #eaf0f4;
+}
+#youtubeInfoTable td .flexitem:nth-child(1){
+  width: 280px;
+  border: 1px solid black;
+}
+#youtubeInfoTable td .flexitem:nth-child(2){
+  width: 280px;
+}
+.barWrap>div{display: inline-block;
+vertical-align: top;}
+.barWrap>div:nth-child(1){
+  width: 70px;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+}
+.barWrap>div:nth-child(2){
+  border-radius: 10px;
+  width: 150px;
+  text-align: right;
+  height: 10px;
+  background-color:  #dee3e6;
+  /* border: 2px solid red;; */
+  position: relative;
+}
+
+#youtubeInfoTable td .flexitem .barWrap div span.graph{
+  background-color: #f2582b;
+  display: block;
+height: 10px;
+float: right;
+}
+.barWrap>div:nth-child(3){
+  width: 40px;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+}
+
+
