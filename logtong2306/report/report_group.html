@@ -7,13 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-  <title>new password</title>
+  <title>체험단관리</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel=stylesheet type="text/css" href="../css/reset.css">
-  <link rel=stylesheet type="text/css" href="../css/password.css">
+  <link rel=stylesheet type="text/css" href="../css/report_group.css">
   <link rel=stylesheet type="text/css" href="../css/common.css">
 
   <script type='text/javascript' src="../js/jquery-3.6.3.min.js"></script>
+
 
 
 </head>
@@ -59,56 +60,118 @@
   </header>
 
 <!-- 네비게이션 헤더 공통부분--------- -->
-
-<section class="inner">
-  <div class="password">
-  <h2>Password</h2>
-<!-- 비밀번호 잃어버렸을경우----- -->
-<form class="lostPw">
-  
-  <div class="logincontainer">
-<p>비밀번호를 잊어버리셨나요?</p>
-<span>가입시 사용한 메일 주소를 입력하시면<br>
-  비밀번호 재설정 관련 내용을 보내드립니다.</span>
-    <input type="text" placeholder="이메일주소 입력" name="" required>
-       <!--팝업버튼 -->
-    <button id="popupS" type="submit" class="inputSubmit">안내메일 전송</button>
-
-<div id="myModal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>이메일이 전송되었습니다.</p>
-    <a href="">확인</a>
+<section class="reportHome">
+<div class="inner">
+  <a href="#"><img src="../images/reportHome.png" alt="리포트홈"></a>
+  <div>
+    <span>abcde1234 님, 로그통 체험단 관리 페이지입니다.</span>
+    <button type="submit"><img src="../images/logout.png" alt="">로그아웃</button>
   </div>
-
 </div>
-     <!--팝업버튼 -->
-
-  </div>
-
-</form>
-   <!-- 비밀번호 확정버튼시 클래스  class="inputSubmit" 활성화 => 버튼 색깔 바뀜----- -->
-<!-- 비밀번호 잃어버렸을경우----- -->
-
-
-
-
-    <div class="CR">
-      <div class="flexcontainer">
-        <div class="flexitem"><a href="">광고문의</a></div><span>|</span>
-        <div class="flexitem"><a href="">이용약관</a></div><span>|</span>
-        <div class="flexitem"><a href="">개인정보처리방침</a></div>
+</section>
+<!-- 체험단관리---------- -->
+<section class="reportTable">
+<div class="innerWrap">
+  <h3>체험단 관리</h3>
+  
+  <table id="reportTable">
+  <tr>
+    <th>상품/서비스</th>
+    <th>모집기간</th>
+    <th>선정자 발표</th>
+    <th>리뷰 등록 마감일</th>
+  </tr>
+  <tr>
+    <td>
+      <div class="serviceWrap">
+        <div class="services"><img src="../images/nblog.png" alt="블로그"><br>
+          <img src="../images/step01.png" alt="등록중"></div>
+        <div class="services">
+       <img class="serviceThumb" src="../images/reportimg01.png" alt="상품썸네일이미지">
+      
+            <p>이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다.</p>
+          <div><span><i><img src="../images/people.png" alt=""> </i><i>모집인원</i><i>10</i></span>
+            <span><i><img src="../images/people.png" alt=""> </i><i>모집인원</i><i>10</i></span>
+            <span><i><img src="../images/people.png" alt=""> </i><i>모집인원</i><i>10</i></span>
+          </div>
+   
+        </div>
+        <div class="tags">
+          <a class="grayline" href="#">선정자 보기</a><a class="grayline" href="#">포스트 등록 결과 보기</a>
+          <a class="grayline" href="#">검색 노출 결과 보기</a>
+          <a class="grayline" href="#">포스트 조회수 통계</a>
+        </div>
       </div>
-      <p>Copyright©2014 (주)노하우미디어. All Rights Reserved
-
-      </p>
-    </div>
-  </div>
+    </td>
+    <td>2023-00-00<br>
+      ~2023-00-00</td>
+    <td>2023-00-00</td>
+    <td>2023-00-00</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="serviceWrap">
+        <div class="services"><img src="../images/nblog.png" alt="블로그"><br>
+          <img src="../images/step03.png" alt="종료"></div>
+        <div class="services">
+       <img class="serviceThumb" src="../images/reportimg01.png" alt="상품썸네일이미지">
+      
+            <p>이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다.</p>
+          <div><span><i><img src="../images/people.png" alt=""> </i><i>모집인원</i><i>10</i></span>
+            <span><i><img src="../images/people.png" alt=""> </i><i>모집인원</i><i>10</i></span>
+            <span><i><img src="../images/people.png" alt=""> </i><i>모집인원</i><i>10</i></span>
+          </div>
+   
+        </div>
+        <div class="tags">
+          <a class="grayline" href="#">선정자 보기</a><a class="grayline" href="#">포스트 등록 결과 보기</a>
+          <a class="grayline" href="#">검색 노출 결과 보기</a>
+          <a class="grayline" href="#">포스트 조회수 통계</a>
+        </div>
+      </div>
+    </td>
+    <td>2023-00-00<br>
+      ~2023-00-00</td>
+    <td>2023-00-00</td>
+    <td>2023-00-00</td>
+  </tr>
+  <tr>
+    <td>
+      <div class="serviceWrap">
+        <div class="services"><img src="../images/nblog.png" alt="블로그"><br>
+          <img src="../images/step02.png" alt="모집중"></div>
+        <div class="services">
+       <img class="serviceThumb" src="../images/reportimg01.png" alt="상품썸네일이미지">
+      
+            <p>이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다. 이곳에 제목이 들어갑니다.</p>
+          <div><span><i><img src="../images/people.png" alt=""> </i><i>모집인원</i><i>10</i></span>
+            <span><i><img src="../images/people.png" alt=""> </i><i>모집인원</i><i>10</i></span>
+            <span><i><img src="../images/people.png" alt=""> </i><i>모집인원</i><i>10</i></span>
+          </div>
+   
+        </div>
+        <div class="tags">
+          <a class="grayline" href="#">선정자 보기</a><a class="grayline" href="#">포스트 등록 결과 보기</a>
+          <a class="grayline" href="#">검색 노출 결과 보기</a>
+          <a class="grayline" href="#">포스트 조회수 통계</a>
+        </div>
+      </div>
+    </td>
+    <td>2023-00-00<br>
+      ~2023-00-00</td>
+    <td>2023-00-00</td>
+    <td>2023-00-00</td>
+  </tr>
+  </table>
+</div>
 
 </section>
+<!-- 체험단관리---------- -->
+ 
 
 
-        <!-- 서브공통 푸터시작--------------------- -->
+
+    <!-- 서브공통 푸터시작--------------------- -->
         <footer>
           <div onclick="topFunction()" id="myBtn" title="Go to top"><img src="../images/top.png" alt="로그통애드메뉴바로가기"></div>
               <div class="inner">
@@ -173,6 +236,8 @@
           </footer>
           <!-- 서브공통 푸터 끝------------------- -->
 
+
+
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script>
 
@@ -195,28 +260,7 @@ function topFunction() {
 }
 
 
-  var modal = document.getElementById("myModal");
-
-  var btn = document.getElementById("popupS");
-
-  var span = document.getElementsByClassName("close")[0];
-
-  btn.onclick = function() {
-    modal.style.display = "block";
-  }
-  span.onclick = function() {
-    modal.style.display = "none";
-  }
-
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
-    }
-  }
-  </script>
-
-
-
+</script>
 </body>
 
 </html>

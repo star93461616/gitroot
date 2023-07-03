@@ -22,6 +22,10 @@
   width: 100%;
   
 }
+#youtubeInfoTable .flexitem .age{
+display: inline-block;
+  margin-bottom: 20px;
+}
 #youtubeInfoTable th{
   width: 130px;
   font-size: 11px;
@@ -94,11 +98,11 @@ margin-top:5px;
   background-color: #eaf0f4;
 }
 #youtubeInfoTable td .flexitem:nth-child(1){
-  width: 280px;
-  border: 1px solid black;
+  width: 320px;
+
 }
 #youtubeInfoTable td .flexitem:nth-child(2){
-  width: 280px;
+  width: 320px;
 }
 .barWrap>div{display: inline-block;
 vertical-align: top;}
@@ -140,5 +144,7 @@ float: right;
   text-align: left;
   color: #494949;
 }
-
+.barWrap{
+  margin-bottom: 10px;
+}
 

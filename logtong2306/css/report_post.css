@@ -1,0 +1,148 @@
+@charset "UTF-8";  
+.reportHome{
+    background: #DEE3E6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+.reportHome .inner{
+    position: relative;
+}
+.reportHome .inner div{
+    float: right;
+    margin-top: 10px;
+}
+.reportHome .inner div span{
+    text-align: right;
+    font-size: 14px;
+color: #494949;
+}
+.reportHome .inner div button[type=submit]{
+    cursor: pointer;
+    font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+    padding: 0 10px;
+    border-radius: 54px;
+    border: solid 1px #dee3e6;
+    background-color: #fff;
+    box-shadow: 20px 30px 40px 0 rgba(0, 0, 0, 0.02);
+margin-left: 20px;
+}
+.reportHome .inner div button[type=submit] img{
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.innerWrap h3{
+    font-size: 32px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000; 
+    margin-bottom: 20px;
+}
+
+.postTable{
+    margin-top: 98px;
+    margin-bottom: 160px;
+
+}
+.postTable .innerWrap{
+    padding: 35px 40px;
+    border-radius: 2px;
+    border: solid 1px #eaeaea;
+}
+#postTable{
+    width: 100%;
+}
+
+#postTable th{
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+padding-top: 26px;
+padding-bottom: 26px;
+    background-color: #eaeaea;
+}
+#postTable td{
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #494949;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: solid 1px #bdbdbd;
+    border-right:none;
+    border-left:none;
+    vertical-align: middle;
+}
+#postTable th:nth-child(1),
+#postTable th:nth-child(2),
+#postTable th:nth-child(3),
+#postTable td:nth-child(1),
+#postTable td:nth-child(2),
+#postTable td:nth-child(3){
+    width: 70px;
+}
+#postTable th:nth-child(4),
+#postTable td:nth-child(4){
+    width: 250px;
+    
+}
+#postTable th:nth-child(5),
+#postTable td:nth-child(5){
+    width: 200px;
+text-align: left;
+}
+#postTable th:nth-child(5){
+    text-align: center;
+}
+#postTable th:nth-child(6),
+#postTable td:nth-child(6){
+    width: 100px;
+    padding-right: 20px;
+
+}
+#postTable td input{
+    border: solid 1px #bdbdbd;
+    width: 154px;
+  height: 34px;
+}
+#postTable td input[type=text]{
+  background: url(../images/m.png) no-repeat;
+  background-position: right bottom;
+  float: right;
+   
+}
+.total{
+padding:20px 240px;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: right;
+    color: #494949;
+}
