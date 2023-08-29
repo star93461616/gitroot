@@ -82,6 +82,56 @@
 .ab{
     position: absolute;
 }
+
+
+
+
+/* 헤더---------------- */
+
+header .inner{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+height: 70px;
+}
+header .inner h1{
+	border:1px solid red;
+	width: 560px;
+	height: 30px;
+}
+header .inner nav{
+	width: 600px;
+
+}
+header .inner nav ul{
+	text-align: right;
+}
+header .inner a{
+	padding-left: 44px;
+}
+header .inner #logo{
+	padding:0
+}
+header .inner #logo svg{
+	border:1px solid red;
+
+}
+header .inner a li{
+	color: #FFF;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+header .inner .icons{
+	width: 120px;
+	text-align: right;
+	background: pink;
+}
+/* 헤더---------------- */
+/* 푸터----------------- */
 footer{
 background: #342F26;
 color: #D9D9D9;
@@ -137,3 +187,5 @@ bottom: 0;
 right:10px;
 }
 footer .icons svg{margin-left: 15px;}
+
+/* 푸터----------------- */
