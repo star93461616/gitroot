@@ -1,0 +1,81 @@
+@charset "UTF-8";  
+
+/* 기본회원정보 및 비번관련 페이지 style------------- */
+.youtubeInfo{
+  padding: 35px 40px;
+  border-radius: 2px;
+  border: solid 1px #eaeaea;
+  width: 816px;
+}
+.youtubeInfo h3{
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+}
+#youtubeInfoTable{
+  width: 100%;
+  border-top: 1px solid  #bdbdbd;
+  border-bottom: 1px solid  #bdbdbd;;
+  
+}
+#youtubeInfoTable .flexitem .age{
+display: inline-block;
+  margin-bottom: 20px;
+}
+#youtubeInfoTable th{
+  width: 130px;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  background-color: #eaeaea;
+  padding:25px 20px;
+  vertical-align: top;
+}
+#youtubeInfoTable td{
+  width: 607px;
+text-align: center;
+padding-bottom: 170px;
+
+}
+#youtubeInfoTable td i img{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 100px;
+}
+#youtubeInfoTable td p{
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #494949;
+}
+#youtubeInfoTable td a{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #05121a;
+  padding: 4px 16px;
+  margin-top: 14px;
+
+}
+

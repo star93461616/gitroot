@@ -7,15 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-  <title>logtong</title>
+  <title>find password</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link rel=stylesheet type="text/css" href="./css/reset.css">
-  <!-- <link rel=stylesheet type="text/css" href="./css/main.css"> -->
-  <link rel=stylesheet type="text/css" href="./css/common.css">
-  <link rel="stylesheet" type="text/css" href="./css/swiper-bundle.css">
+  <link rel=stylesheet type="text/css" href="../css/reset.css">
+  <link rel=stylesheet type="text/css" href="../css/password.css">
+  <link rel=stylesheet type="text/css" href="../css/common.css">
 
-  <script type='text/javascript' src="./js/jquery-3.6.3.min.js"></script>
-
+  <script type='text/javascript' src="../js/jquery-3.6.3.min.js"></script>
 
 
 </head>
@@ -25,7 +23,7 @@
   <header id="header">
     <div class="inner">
       <div id="gnb">
-        <h1><a href="#"><img src="./images/logo_top.png" alt="로그통애드로고"></a></h1>
+        <h1><a href="#"><img src="../images/logo_top.png" alt="로그통애드로고"></a></h1>
         <a class="sub active" href="#">유튜브</a>
         <a class="sub" href="#">블로그</a>
         <a class="sub" href="#">인스타그램</a>
@@ -62,28 +60,57 @@
 
 <!-- 네비게이션 헤더 공통부분--------- -->
 
+<section class="inner">
+  <div class="password">
+  <h2>Password</h2>
 
+ <form>
+  
+        <div class="logincontainer">
+<p>비밀번호 변경</p>
+          <input type="password" placeholder="새 비밀번호" name="" required>
+          <input type="password" placeholder="새 비밀번호 확인" name="" required>
+          <button type="submit" class="inputSubmit">비밀번호 변경</button>
+        </div>
+
+      </form>
+      <!-- 비밀번호 확정버튼시 클래스  class="inputSubmit" 활성화 => 버튼 색깔 바뀜----- -->
+
+
+    <div class="CR">
+      <div class="flexcontainer">
+        <div class="flexitem"><a href="">광고문의</a></div><span>|</span>
+        <div class="flexitem"><a href="">이용약관</a></div><span>|</span>
+        <div class="flexitem"><a href="">개인정보처리방침</a></div>
+      </div>
+      <p>Copyright©2014 (주)노하우미디어. All Rights Reserved
+
+      </p>
+    </div>
+  </div>
+
+</section>
 
 
         <!-- 서브공통 푸터시작--------------------- -->
         <footer>
-          <div onclick="topFunction()" id="myBtn" title="Go to top"><img src="./images/top.png" alt="로그통애드메뉴바로가기"></div>
+          <div onclick="topFunction()" id="myBtn" title="Go to top"><img src="../images/top.png" alt="로그통애드메뉴바로가기"></div>
               <div class="inner">
 
                   <div class="footerMiddle">
                     <div class="bottomLogo">
-                      <img src="./images/logo_wh.png" alt="로그통ad">
+                      <img src="../images/logo_wh.png" alt="로그통ad">
                         
                       <p>(주)노하우미디어</p>
                       <div class="sns">
                         <a href="#">
-                            <i class="talk"><img src="./images/talk.png" width="100%" alt="로그통애드 페이스북"></i>
+                            <i class="talk"><img src="../images/talk.png" width="100%" alt="로그통애드 페이스북"></i>
                         </a>
                         <a href="#">
-                            <i class="insta"><img src="./images/insta.png" width="100%" alt="로그통애드 카카오톡"></i>
+                            <i class="insta"><img src="../images/insta.png" width="100%" alt="로그통애드 카카오톡"></i>
                         </a>
                         <a href="#">
-                            <i class="youtube"><img src="./images/blog.png" width="100%" alt="로그통애드 유튜브"></i>
+                            <i class="youtube"><img src="../images/blog.png" width="100%" alt="로그통애드 유튜브"></i>
                         </a>
                     </div>
 
@@ -100,7 +127,7 @@
                       </div>
                       <div class="agencyORyoutuber">
                           <p>고객센터</p>
-                     <strong>1661-8220  <span><img src="./images/phone.png" alt="로그통애드 전화하기"></span></strong>
+                     <strong>1661-8220  <span><img src="../images/phone.png" alt="로그통애드 전화하기"></span></strong>
                      <ul>
                      <li>평일 &nbsp;AM 10:00 - PM  05:00</li> 
                      <li>점심 &nbsp;12:30 - PM 01:30</li>
@@ -113,7 +140,7 @@
                           <p><b>광고주</b>이신가요?</p>
                           <span class="now">지금 바로 로그통으로 문의하세요!</span>
                           <button class="submit_btn" onclick="location.href='../page/qna.php'";>  
-                            <em><img src="./images/laptop.png" alt="로그통애드광고문의"></em><span>광고 문의하기<i class="fa-solid fa-chevron-right"></i></i>
+                            <em><img src="../images/laptop.png" alt="로그통애드광고문의"></em><span>광고 문의하기<i class="fa-solid fa-chevron-right"></i></i>
                           </span></button>
                         </div>
                   </div>
@@ -152,7 +179,11 @@ function topFunction() {
 }
 
 
-</script>
+
+  </script>
+
+
+
 </body>
 
 </html>

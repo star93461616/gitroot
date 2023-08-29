@@ -1,0 +1,121 @@
+@charset "UTF-8";  
+/* 유튜브캠페인 섹션----------------- */
+.postStatistic{
+margin-top: 160px;
+margin-bottom: 160px;
+ 
+}
+.postStatistic .innerWrap{
+  padding: 35px 40px;
+  border-radius: 2px;
+  border: solid 1px #eaeaea;
+}
+.sectionTitle{
+   position: relative;
+}
+
+.sectionTitle h3{
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.staticWrap{
+  position: relative;
+  margin-bottom: 30px;
+}
+.staticWrap .static{
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+.staticWrap .static:nth-child(1){
+  background-image: linear-gradient(169deg, #f2582b 14%, #e74010 73%);
+margin-right: 10px;
+}
+.staticWrap .static:nth-child(2){
+
+background-image: linear-gradient(146deg, #0e67af 18%, #025394 58%);
+} 
+.static span img{
+  width: 20px;
+  height: 19px;
+}
+.static span{
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+.static div{
+  text-align: right;
+  margin-top: -30px;
+}
+.static div small{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: right;
+  color: #fff;
+}
+.static div strong{
+  font-size: 68px;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: -2.72px;
+  text-align: right;
+  color: #fff;
+}
+.reason{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.description{
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+  margin-bottom: 80px;
+}
+
+
+.bxslider{
+  border:none
+}
+.bxslider div{
+
+  height: 540px;
+  border:none
+}

@@ -1,0 +1,122 @@
+@charset "UTF-8";  
+/* 유튜브캠페인 섹션----------------- */
+.youtubeCampaign{
+    padding: 160px 154px;
+    padding-top: 160px;
+
+}
+.sectionTitle{
+   position: relative;
+}
+.sectionTitle img{
+    display: inline-block;
+    vertical-align: top;
+margin-top: 5px;
+}
+.sectionTitle h2{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 38px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    padding-left: 10px;
+}
+
+
+.youtubeCampaign .flexcontainer{
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between!important;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+ .youtubeCampaign .flexitem {
+
+    text-align: left;
+
+    border-radius: 10px;
+    box-shadow: 20px 30px 40px 0 rgba(0, 0, 0, 0.02);
+    border: solid 1px #bdbdbd;
+    background-color: #fff;
+    width: 364px;
+    overflow: hidden;
+    margin-bottom: 40px;
+
+  }
+  .itemInfor{
+    padding: 20px 10px;;
+  }
+  .itemInfor .tag{
+    margin-bottom: 10px;
+  }
+  .itemInfor p{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    overflow: hidden;  	
+    text-overflow: ellipsis;  
+    white-space: wrap; 
+    word-break:break-all;
+    width: 320px;
+    height: 46px;
+  }
+#schedule{
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #494949;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+margin-bottom: 18px;
+}
+.status {
+    position: relative;
+}
+.status img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.status em{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #025394;
+}
+.status span{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #025394;
+    padding: 2px 10px;
+    border-radius: 30px;
+    background-color: #eaf0f4;
+    margin-right: 20px;
+}

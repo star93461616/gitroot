@@ -1,0 +1,634 @@
+@charset "UTF-8";  
+/* 유튜브캠페인 섹션----------------- */
+.youtubeCampaign{
+    padding: 160px 154px;
+   
+    background-image: linear-gradient(to bottom, #fff 0%, #eaf0f4 100%);
+
+    padding-top: 160px;
+    padding-bottom: 300px;
+}
+.sectionTitle{
+   position: relative;
+}
+.sectionTitle img{
+    display: inline-block;
+    vertical-align: top;
+margin-top: 5px;
+}
+.sectionTitle h2{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 38px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    padding-left: 10px;
+}
+
+
+.youtubeCampaign .flexcontainer{
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between!important;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+ .youtubeCampaign .flexitem {
+
+    text-align: left;
+
+    border-radius: 10px;
+    box-shadow: 20px 30px 40px 0 rgba(0, 0, 0, 0.02);
+    border: solid 1px #bdbdbd;
+    background-color: #fff;
+    width: 364px;
+    overflow: hidden;
+    margin-bottom: 40px;
+
+  }
+  .itemInfor{
+    padding: 20px 10px;;
+  }
+  .itemInfor .tag{
+    margin-bottom: 10px;
+  }
+  .itemInfor p{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    overflow: hidden;  	
+    text-overflow: ellipsis;  
+    white-space: wrap; 
+    word-break:break-all;
+    width: 320px;
+    height: 46px;
+  }
+#schedule{
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #494949;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+margin-bottom: 18px;
+}
+.status {
+    position: relative;
+}
+.status img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.status em{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #025394;
+}
+.status span{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #025394;
+    padding: 2px 10px;
+    border-radius: 30px;
+    background-color: #eaf0f4;
+    margin-right: 20px;
+}
+
+.buttonWrap{
+    text-align: center;
+}
+.buttonWrap a{
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #05121a;
+padding:8px 20px;
+}
+.buttonWrap a :indeterminate{
+    font-size: 14px;
+}
+
+.mainbanner{
+    margin-top: -180px;
+}
+.mainbanner .innerWrap{
+    background: url(../images/mainbanner.png) no-repeat;
+    background-size: cover;
+    width: 1189px;
+    height: 387px;
+    padding-left:75px;
+    padding-top: 145px;
+    position: relative;
+   margin-bottom: 220px;
+}
+.mainbanner .innerWrap div{
+    display: inline-block;
+    vertical-align: top;
+}
+.mainbanner .innerWrap div h3{
+    font-size: 38px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    margin-right: 48px;
+}
+.mainbanner .innerWrap div a{
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    padding: 8px 28px;
+    box-shadow: 20px 30px 40px 0 rgba(0, 0, 0, 0.02);
+
+}
+.mainbanner .innerWrap div h4{
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: -0.22px;
+    text-align: left;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+.mainbanner .innerWrap div span{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: -0.28px;
+    text-align: left;
+    color: #fff;
+    margin-top: 5px;
+    display: block;
+}
+
+
+
+
+
+/* youtubeCampaign---------------------- */
+.innerWrap1350{
+  width: 1350px;
+    margin:0 auto;
+    overflow: hidden;
+
+}
+/* 유튜브컨텐츠 슬라이드--------------- */
+.youtubeContents{
+    padding-bottom: 220px;
+}
+.swiper {
+width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    /* background: pink; */
+
+  }
+
+  .swiper-slide {
+  width: 100%;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px 30px 40px 0 rgba(0, 0, 0, 0.02);
+    border: solid 1px #bdbdbd;
+    background-color: #fff;
+    padding: 12px 9px;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .swiper-slide p{
+    /* width: 280px; */
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+.swiper-slide a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 4px 12px;
+    font-size: 11px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+.swiper-slide a i{
+    margin-left: 5px;
+}
+  /* .swiper-slide .youtubeVideo img {
+    width: 280px;
+    height: 210px;
+  } */
+  .youtubeVideo{
+ 
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+        height: 100%;
+    height: 210.2px;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .aboutchannel{
+    width: 100%;
+    border-radius: 10px;
+    border: solid 1px #dee3e6;
+overflow: hidden;
+  }
+
+  .aboutchannel .aboutchannelTop{
+    padding: 10px 20px;
+    background-color: #eaf0f4;
+    text-align: left;
+
+  }
+  .aboutchannel .aboutchannelTop img{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .aboutchannel .aboutchannelTop span{
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+vertical-align: middle;
+    color: #000;
+  margin-left: 10px;
+  }
+  .aboutchannelBottomp{
+    padding:10px 10px;
+    text-align: center;
+  }
+  .aboutchannelBottomp table{
+    width: 100%;
+
+  }
+  .aboutchannelBottomp table tr th{
+    width: 30%;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+  }
+  .aboutchannelBottomp table tr th,
+  .aboutchannelBottomp table tr th i{
+    font-size: 12px;
+margin-right: 5px;
+    color: #025394;
+  }
+  .aboutchannelBottomp table tr td {
+padding-top: 8px;
+
+  }
+  .aboutchannelBottomp table tr td span{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #025394;
+    padding: 4px 10px;
+    border-radius: 30px;
+    background-color: #eaf0f4;
+    text-align: center;
+  }
+
+
+  /* 유튜브 크리에이터 배너----------------------------- */
+  .creator{
+    background: url(../images/mainbanner2.png) no-repeat;
+    background-size: cover;
+
+    padding-left:75px;
+
+    position: relative;
+   margin-bottom: 220px;
+   text-align: left;
+}
+.creator .innerWrap h3{
+  font-size: 38px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+padding-top:220px;
+}
+.creator .innerWrap h3 b{
+  font-weight: 800;
+}
+
+.creator .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.creator .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+}
+
+.creator .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.creatorWrap{
+  padding-top: 80px;
+  /* overflow: hidden; */
+}
+
+.mySwiper2 .swiper-slide{
+  width: 253px;
+  height: 295px;
+  border-radius: 10px;
+  position: relative;
+  padding-top: 30px;padding-bottom: 30px;
+}
+.mySwiper2 .creatorTop{
+  text-align: center;
+  display: block;
+}
+.mySwiper2 .creatorTop img{
+  width: 120px;
+  height: 120px;
+border-radius: 50%;
+margin:0 auto;
+  border: solid 1px #dbe0e3;
+}
+.mySwiper2 .creatorTop h4{
+  font-size: 17px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  border-bottom:1px solid rgba(2, 83, 148, 0.2);
+  margin-bottom: 14px;
+}
+.mySwiper2 .creatorBottom table{
+  width: 100%;
+
+}
+.mySwiper2 .creatorBottom table tr th{
+  width: 30%;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+}
+.mySwiper2 .creatorBottom table tr th,
+.mySwiper2 .creatorBottom table tr th i{
+  font-size: 12px;
+margin-right: 5px;
+  color: #025394;
+}
+.mySwiper2 .creatorBottom table tr td {
+padding-top: 8px;
+
+}
+.mySwiper2 .creatorBottom table tr td span{
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #025394;
+  padding: 4px 10px;
+  border-radius: 30px;
+  background-color: #eaf0f4;
+  text-align: center;
+}
+
+
+
+/* 숏폼컨텐츠/캠페인----------------------- */
+.shortForm{
+  padding-bottom: 160px;
+  
+  background-image: linear-gradient(to bottom, #fff 0%, #eaf0f4 100%);
+
+}
+.shortForm .flexcontainer{
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between!important;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.shortForm .flexitem {
+
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 20px 30px 40px 0 rgba(0, 0, 0, 0.02);
+  border: solid 1px #bdbdbd;
+  background-color: #fff;
+  width: 268px;
+  overflow: hidden;
+  margin-bottom: 40px;
+
+}
+.itemInfor{
+  padding: 20px 10px;;
+}
+.itemInfor .tag{
+  margin-bottom: 10px;
+}
+.itemInfor p{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  overflow: hidden;  	
+  text-overflow: ellipsis;  
+  white-space: wrap; 
+  word-break:break-all;
+  width: 230px;
+  height: 65px;
+}
+#shortsschedule{
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 18px;
+margin-bottom: 18px;
+}
+.shortsstatus {
+  position: relative;
+}
+.shortsstatus img{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.shortsstatus em{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #025394;
+}
+.shortsstatus span{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #025394;
+  padding: 2px 10px;
+  border-radius: 30px;
+  background-color: #eaf0f4;
+  margin-right: 20px;
+}
+
+.buttonWrap{
+  text-align: center;
+}
+.buttonWrap a{
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #05121a;
+padding:8px 20px;
+}
+.buttonWrap a :indeterminate{
+  font-size: 14px;
+}
+
+/* -- 네이버 인플루언서캠페인 -------------  */
+
+.Ninfluencer{
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.Ninfluencer .sectionTitle img{
+margin-top: 0;
+}
+
+
+
+
+/* 모집중인캠페인------------------------ */
+
+.Ingcampaign{
+  padding-top: 160px;
+  padding-bottom: 160px;
+   background-image: linear-gradient(to top, #eaf0f4 100%, #fff 0%);
+
+}
+.Ingcampaign h2 span{
+  font-size: 28px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}

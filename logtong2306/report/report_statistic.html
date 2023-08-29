@@ -7,13 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-  <title>logtong</title>
+  <title>포스트 조회 통계</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel=stylesheet type="text/css" href="../css/reset.css">
-  <link rel=stylesheet type="text/css" href="../css/login.css">
+  <link rel=stylesheet type="text/css" href="../css/report_statistic.css">
   <link rel=stylesheet type="text/css" href="../css/common.css">
-  <script type='text/javascript' src="../js/jquery-3.6.3.min.js"></script>
 
+  <link rel="stylesheet" type="text/css" href="../css/bxslider.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
 
 </head>
@@ -60,41 +63,67 @@
 
 <!-- 네비게이션 헤더 공통부분--------- -->
 
-<section class="inner login">
-  <h2>Log in</h2>
-  <div class="flexcontainer">
-    <div class="flexitem">
-      <form>
-  
-        <div class="logincontainer">
-<p>로그인</p>
-          <input type="text" placeholder="아이디" name="uname" required>
-    
-          <input type="password" placeholder="비밀번호" name="psw" required>
-            
-          <button type="submit"><img src="../images/ic_login.png" alt="">로그인</button>
-          <label>
-            <input type="checkbox" checked="checked" name="remember"> 아이디 저장
-          </label>
-        </div>
+<!-- 유튜브 캠페인 섭외/협찬---------- -->
+<section class="postStatistic">
+<div class="innerWrap">
 
-      </form>
+<div class="sectionTitle">
+  <h3>포스트 조회 통계</h3>
+</div>
+<div class="staticWrap">
+  <div class="static">
+    <span><img src="../images/viewCount.png" alt="조회수"></span>
+    <span>총 조회수</span>
+ <div>
+  <small>Total</small>
+  <strong>1,333</strong>
+ </div>
+
+  </div>
+  <div class="static">
+    <span><img src="../images/viewCount.png" alt="조회수"></span>
+    <span>일별 평균 조회수</span>
+ <div>
+  <small>Today</small>
+  <strong>33</strong>
+ </div>
+
+  </div>
+</div>
+<span><img src="../images/ps.png" alt="도움말"></span><p class="reason">“포스트 등록 결과 보기”의 총 조회수와 차이가 나는 이유</p>
+<div class="description">포스트 등록 결과 보기의 총 조회수는 실시간 조회수이고, 위의 총 조회수는 일정 시간이 지난 후 통계가 나옵니다.<br>
+  *둘의 시간차가 존재합니다.</div>
+  <div class="sectionTitle">
+    <h3>포스트 작성 결과 확인</h3>
+  </div>
+
+
+  <div class="bxslider">
+    <div>
+      <canvas id="myChart"></canvas>
     </div>
-    <div class="flexitem">
-      <form>
-        <div class="signUpcontainer">
-      <p>회원가입</p>
-      <button type="submit"><img src="../images/ic_register.png" alt="">회원가입</button>
-      <p>아이디, 비밀번호 찾기</p>
-      <button type="submit"><img src="../images/ic_findPW.png" alt="">아이디/비밀번호 찾기</button>
-      </div>
-    </form>
+    <div>
+      <canvas id="myChart2"></canvas>
+    </div><div>
+      <canvas id="myChart3"></canvas>
     </div>
   </div>
+
+<!-- 그래프------- -->
+  <!-- <div>
+    <canvas id="myChart"></canvas>
+  </div>  -->
+
+
+
+
+</div>
 </section>
+<!-- 유튜브 캠페인 섭외/협찬---------- -->
 
 
-        <!-- 서브공통 푸터시작--------------------- -->
+
+    <!-- 서브공통 푸터시작--------------------- -->
         <footer>
           <div onclick="topFunction()" id="myBtn" title="Go to top"><img src="../images/top.png" alt="로그통애드메뉴바로가기"></div>
               <div class="inner">
@@ -159,6 +188,8 @@
           </footer>
           <!-- 서브공통 푸터 끝------------------- -->
 
+
+
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script>
 
@@ -182,6 +213,98 @@ function topFunction() {
 
 
 </script>
+
+	<script>
+$('.bxslider').bxSlider({
+  mode: 'fade',
+  // caption: 'false',
+  slideMargin: 5,
+  pager:'false'
+});
+    </script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const ctx = document.getElementById('myChart');
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['1', '2', '3', '4', '5', '6','7'],
+        datasets: [{
+        label: '2023.06.01~06.07',
+        data: [1214, 619, 1360, 890, 734, 1759, 1599],
+        backgroundColor: '#007adc',
+        barPercentage: 0.1,
+      }],
+
+    },
+    
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        },
+     
+      },
+      
+    }
+
+    
+  });
+
+  const ctx2 = document.getElementById('myChart2');
+
+new Chart(ctx2, {
+  type: 'bar',
+  data: {
+    labels: ['8', '9', '10', '11', '12', '1','2'],
+    datasets: [{
+      label: '2023.01.01~08.01',
+      data: [1214, 619, 1360, 890, 734, 1759, 1599],
+      backgroundColor: '#007adc',
+      barPercentage: 0.1,
+    }],
+
+  },
+  
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true
+      }
+    }
+  }
+});
+
+const ctx3 = document.getElementById('myChart3');
+
+new Chart(ctx3, {
+  type: 'bar',
+  data: {
+    labels: ['1', '2', '3', '4', '5', '6','7'],
+    datasets: [{
+      label: '2023.06.01~06.07',
+      data: [1214, 619, 1360, 890, 734, 1759, 1599],
+      backgroundColor: '#007adc',
+      barPercentage: 0.1,
+    }],
+
+  },
+  
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true
+      }
+    }
+  }
+});
+</script>
+
+
 </body>
 
 </html>

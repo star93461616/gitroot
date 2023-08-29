@@ -1,0 +1,161 @@
+@charset "UTF-8";  
+
+/* 기본회원정보 및 비번관련 페이지 style------------- */
+.mycampaign{
+  padding: 35px 40px;
+  border-radius: 2px;
+  border: solid 1px #eaeaea;
+  width: 816px;
+}
+.mycampaign h3{
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+}
+.CampaignStatus{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between!important;
+}
+.CampaignStatus .campaignItem{
+  width: 240px;
+padding:6px 10px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.05);
+  border: solid 1px rgba(0, 0, 0, 0.06);
+  background-color: #eaf0f4;
+  text-align: center;
+  position: relative;
+}
+ .CampaignStatus .campaignItem p{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.CampaignStatus .campaignItem span{
+float: right;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f2582b;
+  border-radius: 54px;
+  box-shadow: 20px 30px 40px 0 rgba(0, 0, 0, 0.02);
+  border: solid 1px #dee3e6;
+  background-color: #fff;
+  padding:4px 16px;
+}
+
+
+
+.mycampaign .flexcontainer{
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between!important;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.mycampaign .flexitem {
+
+  text-align: left;
+
+  border-radius: 10px;
+  box-shadow: 20px 30px 40px 0 rgba(0, 0, 0, 0.02);
+  border: solid 1px #bdbdbd;
+  background-color: #fff;
+  width: 232px;
+  overflow: hidden;
+  margin-bottom: 20px;
+
+}
+.itemInfor{
+  padding: 20px 10px;;
+}
+.itemInfor .tag{
+  margin-bottom: 10px;
+}
+.itemInfor p{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  overflow: hidden;  	
+  text-overflow: ellipsis;  
+  white-space: wrap; 
+  word-break:break-all;
+  width: 204px;
+  height: 46px;
+}
+#schedule{
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 18px;
+margin-bottom: 18px;
+}
+.status {
+  position: relative;
+}
+.status img{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+.status em{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #025394;
+}
+.status span{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #025394;
+  padding: 2px 10px;
+  border-radius: 30px;
+  background-color: #eaf0f4;
+  margin-right: 10px;
+}

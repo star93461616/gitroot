@@ -1,0 +1,89 @@
+@charset "UTF-8";  
+
+/* 기본회원정보 및 비번관련 페이지 style------------- */
+.connectedChannel{
+  padding: 35px 40px;
+  border-radius: 2px;
+  border: solid 1px #eaeaea;
+  width: 816px;
+}
+.connectedChannel h3{
+  font-size: 32px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+}
+#ConnectTable{
+  width: 100%;
+  
+}
+#ConnectTable th{
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  background: #eaeaea;
+  padding-top: 26px;
+  padding-bottom: 26px;
+border-bottom: 1px solid #bdbdbd;;
+}
+#ConnectTable th:nth-child(1),
+#ConnectTable th:nth-child(3),
+#ConnectTable td:nth-child(1),
+#ConnectTable td:nth-child(3){
+  width: 90px;
+  padding-left: 10px;
+}
+#ConnectTable th:nth-child(2),
+#ConnectTable th:nth-child(4),
+#ConnectTable td:nth-child(2),
+#ConnectTable td:nth-child(4){
+width: 260px;
+  word-break: break-all
+}
+#ConnectTable td{
+  vertical-align: middle;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border-bottom: 1px solid #bdbdbd;;
+}
+#ConnectTable td span{
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #494949;
+  margin-right: 20px;
+  
+}
+#ConnectTable td a{
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #494949;
+
+  white-space: nowrap 
+}
+.buttonWrap{
+
+  text-align: right;
+  margin-top: 16px;
+}
+
+
