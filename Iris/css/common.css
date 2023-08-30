@@ -87,15 +87,20 @@
 
 
 /* 헤더---------------- */
+header {
 
+margin-bottom: -71px;
+}
 header .inner{
+	width: 1280px;
+	margin:0 auto;
 display: flex;
 justify-content: flex-start;
 align-items: center;
 height: 70px;
 }
 header .inner h1{
-	border:1px solid red;
+
 	width: 560px;
 	height: 30px;
 }
@@ -112,10 +117,7 @@ header .inner a{
 header .inner #logo{
 	padding:0
 }
-header .inner #logo svg{
-	border:1px solid red;
 
-}
 header .inner a li{
 	color: #FFF;
 
@@ -128,7 +130,10 @@ line-height: normal;
 header .inner .icons{
 	width: 120px;
 	text-align: right;
-	background: pink;
+
+}
+header .inner .icons svg{
+	margin-left: 10px;
 }
 /* 헤더---------------- */
 /* 푸터----------------- */
