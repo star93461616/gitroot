@@ -83,13 +83,26 @@
     position: absolute;
 }
 
+.yellowBtn{
+padding:16px 30px;
 
+	border-radius: 30px;
+background: #FFB526;
+color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
 
+}
+.yellowBtn i{
+	margin-left: 10px;
+}
 
 /* 헤더---------------- */
 header {
 
 margin-bottom: -71px;
+z-index: 1
 }
 header .inner{
 	width: 1280px;

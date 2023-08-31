@@ -40,6 +40,9 @@
   z-index: -1;
   display: block
 }
+.mySwiper02{
+  z-index: 0;
+}
 .swiper h2{
 position: absolute;
 z-index: 5;

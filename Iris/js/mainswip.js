@@ -16,4 +16,19 @@ autoplay: {
 },
 
 });
+
+
+
+var swiper = new Swiper(".mySwiper02", {
+  slidesPerView: 3.4,
+  spaceBetween: 15,
+  freeMode: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+
+
 })
