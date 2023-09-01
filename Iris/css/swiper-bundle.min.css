@@ -375,6 +375,24 @@ margin-top: -50px;
 .swiper-rtl .swiper-button-prev:after {
   content: 'next'
 }
+
+
+
+
+
+
+
+.mySwiper02 .swiper-button-next,
+.mySwiper02 .swiper-button-prev {
+
+  top: var(--swiper-navigation-top-offset, 2%);
+}
+
+.mySwiper02 .swiper-button-prev {
+  left: var(--swiper-navigation-sides-offset,92%);
+  /* left: auto */
+}
+
 .mySwiper02 .swiper-button-prev {
   background: url(../images/prev.png) no-repeat;
   background-size: contain;
@@ -391,16 +409,7 @@ margin-top: -50px;
 .mySwiper02 .swiper-button-next,
 .mySwiper02 .swiper-button-prev {
   position: absolute;
-  top: var(--swiper-navigation-top-offset, 2%);
-  /* width: calc(var(--swiper-navigation-size)/ 44 * 27);
-  height: var(--swiper-navigation-size);
-  margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
-  z-index: 10;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--swiper-navigation-color, var(--swiper-theme-color)) */
+  top: var(--swiper-navigation-top-offset, 4%);
 }
 
 
@@ -704,12 +713,18 @@ button.swiper-pagination-bullet {
 
 /* 아이리스 유튜브섹션 prev, next 섹션 패딩------ */
 
+
+
 .swiper-free-mode>.swiper-wrapper {
   transition-timing-function: ease-out;
   margin: 0 auto;
   padding-top: 80px;
 }
 
+/* 메인 아이리스유튜브섹션 슬라이드 위쪽 마진------ */
+.mySwiper02 .swiper-wrapper{
+  margin-top: -80px;
+}
 .swiper-grid>.swiper-wrapper {
   flex-wrap: wrap
 }
