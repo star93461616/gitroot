@@ -43,6 +43,9 @@
 .mySwiper02{
   z-index: 0;
 }
+.mySwiper03{
+  position: relative;
+}
 .swiper h2{
 position: absolute;
 z-index: 5;
@@ -631,6 +634,17 @@ button.swiper-pagination-bullet {
   background: var(--swiper-scrollbar-bg-color, #fff)
 }
 
+.swiper-scrollbar03 {
+
+margin-left: -10px;;
+  border-radius: var(--swiper-scrollbar-border-radius, 10px);
+  position: relative;
+  -ms-touch-action: none;
+  background: var(--swiper-scrollbar-bg-color, #d9d9d9)
+}
+
+
+
 .swiper-scrollbar-disabled>.swiper-scrollbar,
 .swiper-scrollbar.swiper-scrollbar-disabled {
   display: none !important
@@ -648,6 +662,19 @@ button.swiper-pagination-bullet {
   width:1280px;
   margin:o auto
 }
+.swiper-scrollbar03 {
+  position: absolute;
+  left: var(--swiper-scrollbar-sides-offset,1%);
+  bottom: var(--swiper-scrollbar-bottom, 25%);
+  /* top: var(--swiper-scrollbar-top, auto); */
+  z-index: 50;
+  height: var(--swiper-scrollbar-size, 1px);
+  /* width: calc(80% - 2 * var(--swiper-scrollbar-sides-offset, 1%)); */
+  width: 400px;
+
+}
+
+
 
 /* .swiper-scrollbar.swiper-scrollbar-vertical,
 .swiper-vertical>.swiper-scrollbar {
@@ -671,7 +698,17 @@ button.swiper-pagination-bullet {
   border:2px solid #fff;
   margin-top: -2px;
 }
-
+.swiper-scrollbar-drag {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: var(--swiper-scrollbar-drag-bg-color, #000000);
+  /* border-radius: var(--swiper-scrollbar-border-radius, 10px); */
+  left: 0;
+  top: 0;
+  border:2px solid #000000;
+  margin-top: -2px;
+}
 .swiper-scrollbar-cursor-drag {
   cursor: move
 }
@@ -725,6 +762,12 @@ button.swiper-pagination-bullet {
 .mySwiper02 .swiper-wrapper{
   margin-top: -80px;
 }
+
+/* 메인 아이리스유포트폴리오 슬라이드 위쪽 마진------ */
+.mySwiper03 .swiper-wrapper{
+  margin-top: -100px;
+}
+
 .swiper-grid>.swiper-wrapper {
   flex-wrap: wrap
 }
