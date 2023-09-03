@@ -70,8 +70,8 @@ line-height: 1.5;
 
 }
 .mySwiper02 .swiper-wrapper div img{
-  width: 410px;
-  height: 467px;
+  width: 360px;
+  height: 410px;
 }
 .mySwiper02 .swiper-wrapper img{
 width: 100%;
@@ -90,7 +90,8 @@ margin-top: 25px;
 margin-bottom: 8px;
 }
 .mySwiper02 .swiper-slide p{
-    font-size: 24px;
+    font-size: 22px;
+    width: 360px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;

@@ -20,8 +20,8 @@ autoplay: {
 
 
 var swiper = new Swiper(".mySwiper02", {
-  slidesPerView: 3.1,
-  spaceBetween: 12,
+  slidesPerView: 3.5,
+  spaceBetween: 15,
   freeMode: true,
   navigation: {
     nextEl: ".swiper-button-next",
