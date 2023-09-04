@@ -97,161 +97,67 @@
 
 <section class="subbanner">
 <div class="inner">
-  <h2>Iris Youtube</h2>
+  <h2>포트폴리오</h2>
 </div>
 </section>
 
-<section class="youtubeList">
+<section class="irisportfolio">
   <div class="inner">
-    <h3>Youtube List</h3>
-    <!-- ------- 유튜브리스트 3개 시작------- -->
-<div class="gridcontainer">
-  <div class="griditem">
-    <img src="../images/ylist00.png" alt="아이리스유튜브">
-  <div class="irisyoutubeContents">
-    <span>Youtube</span>
-    <p>도곡동 90평 아파트,한* 에서 
-      6000만원 나온 주방,실제 가격은 ?</p>
-  </div>
+    <h3>판교밸리자이 아파트</h3>
+    <h4>미니멀하고 모던한 화이트 인테리어를 만나보세요</h4>
 
-  </div>
-  <div class="griditem">
-    <img src="../images/ylist01.png" alt="아이리스유튜브">
-  <div class="irisyoutubeContents">
-    <span>Youtube</span>
-    <p>호텔같은 50평대 아파트 인테리어 입니다.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique officia harum fugiat facere illum consequuntur voluptatibus dolor omnis quod totam hic, ab recusandae ad ea aperiam natus veniam iure.
-    </p>
-  </div>
+    <button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+    <button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+    <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+    <button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
 
-  </div>
-  <div class="griditem">
-    <img src="../images/ylist02.png" alt="아이리스유튜브">
-  <div class="irisyoutubeContents">
-    <span>Youtube</span>
-    <p>시그니엘이 부럽지 않은 그곳! 잠실 롯데캐슬골드 81평 대형평수 아파트 인테리어 현장롯데캐슬골드 81평 대형평수 아파트 인테리 </p>
-  </div>
-
-  </div>
-</div>
-<!-- ------- 유튜브리스트 3개 끝------ -->
-<!-- ------- 유튜브리스트 3개 시작------- -->
-<div class="gridcontainer">
-  <div class="griditem">
-    <img src="../images/ylist00.png" alt="아이리스유튜브">
-  <div class="irisyoutubeContents">
-    <span>Youtube</span>
-    <p>도곡동 90평 아파트,한* 에서 
-      6000만원 나온 주방,실제 가격은 ?</p>
-  </div>
-
-  </div>
-  <div class="griditem">
-    <img src="../images/ylist01.png" alt="아이리스유튜브">
-  <div class="irisyoutubeContents">
-    <span>Youtube</span>
-    <p>호텔같은 50평대 아파트 인테리어 입니다.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique officia harum fugiat facere illum consequuntur voluptatibus dolor omnis quod totam hic, ab recusandae ad ea aperiam natus veniam iure.
-    </p>
-  </div>
-
-  </div>
-  <div class="griditem">
-    <img src="../images/ylist02.png" alt="아이리스유튜브">
-  <div class="irisyoutubeContents">
-    <span>Youtube</span>
-    <p>시그니엘이 부럽지 않은 그곳! 잠실 롯데캐슬골드 81평 대형평수 아파트 인테리어 현장롯데캐슬골드 81평 대형평수 아파트 인테리 </p>
-  </div>
-
-  </div>
-</div>
-<!-- ------- 유튜브리스트 3개 끝------ -->
+    <div id="London" class="tabcontent">
+      <h1>London</h1>
+      <p>London is the capital city of England.</p>
+    </div>
+    
+    <div id="Paris" class="tabcontent">
+      <h1>Paris</h1>
+      <p>Paris is the capital of France.</p> 
+    </div>
+    
+    <div id="Tokyo" class="tabcontent">
+      <h1>Tokyo</h1>
+      <p>Tokyo is the capital of Japan.</p>
+    </div>
+    
+    <div id="Oslo" class="tabcontent">
+      <h1>Oslo</h1>
+      <p>Oslo is the capital of Norway.</p>
+    </div>
 
 
-<!-- 유뷰브리스트 더보기 버튼------- -->
-<div class="btnWrap"><button class="readmore" onclick="toggleFunction()">Read More</button></div>
-<!-- 유뷰브리스트 더보기 버튼------- -->
 
-<!-- -----유튜브리스트 더보여지는 부분 시작----- -->
-<div id="showyoutube">
-  <div class="gridcontainer ">
-    <div class="griditem">
-      <img src="../images/ylist00.png" alt="아이리스유튜브">
-    <div class="irisyoutubeContents">
-      <span>Youtube</span>
-      <p>도곡동 90평 아파트,한* 에서
-        6000만원 나온 주방,실제 가격은 ?</p>
-    </div>
-  
-    </div>
-    <div class="griditem">
-      <img src="../images/ylist01.png" alt="아이리스유튜브">
-    <div class="irisyoutubeContents">
-      <span>Youtube</span>
-      <p>호텔같은 50평대 아파트 인테리어 입니다.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique officia harum fugiat facere illum consequuntur voluptatibus dolor omnis quod totam hic, ab recusandae ad ea aperiam natus veniam iure.
-      </p>
-    </div>
-  
-    </div>
-    <div class="griditem">
-      <img src="../images/ylist02.png" alt="아이리스유튜브">
-    <div class="irisyoutubeContents">
-      <span>Youtube</span>
-      <p>시그니엘이 부럽지 않은 그곳! 잠실 롯데캐슬골드 81평 대형평수 아파트 인테리어 현장롯데캐슬골드 81평 대형평수 아파트 인테리 </p>
-    </div>
-  
-    </div>
-  </div>
-  <div class="gridcontainer ">
-    <div class="griditem">
-      <img src="../images/ylist00.png" alt="아이리스유튜브">
-    <div class="irisyoutubeContents">
-      <span>Youtube</span>
-      <p>도곡동 90평 아파트,한* 에서
-        6000만원 나온 주방,실제 가격은 ?</p>
-    </div>
-  
-    </div>
-    <div class="griditem">
-      <img src="../images/ylist01.png" alt="아이리스유튜브">
-    <div class="irisyoutubeContents">
-      <span>Youtube</span>
-      <p>호텔같은 50평대 아파트 인테리어 입니다.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique officia harum fugiat facere illum consequuntur voluptatibus dolor omnis quod totam hic, ab recusandae ad ea aperiam natus veniam iure.
-      </p>
-    </div>
-  
-    </div>
-    <div class="griditem">
-      <img src="../images/ylist02.png" alt="아이리스유튜브">
-    <div class="irisyoutubeContents">
-      <span>Youtube</span>
-      <p>시그니엘이 부럽지 않은 그곳! 잠실 롯데캐슬골드 81평 대형평수 아파트 인테리어 현장롯데캐슬골드 81평 대형평수 아파트 인테리 </p>
-    </div>
-  
-    </div>
-  </div>
-</div>
-<!-- -----유튜브리스트 더보여지는 부분 시작----- -->
+
+
+
   </div>
   </section>
-
-
-
-  <!-- ------ 유튜브리스트 더보기 ------ -->
   <script>
-function toggleFunction() {
-  var x = document.getElementById("showyoutube");
-
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+    function openCity(cityName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(cityName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    
+    }
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
     </script>
-  <!-- ------ 유튜브리스트 더보기 ------ -->
+
+
 
   <footer>
     <div class="inner pa">
