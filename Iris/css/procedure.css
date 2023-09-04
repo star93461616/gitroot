@@ -1,0 +1,140 @@
+@charset "UTF-8";  
+.subbanner{
+  padding: 50px 0 90px 0;;
+}
+.subbanner h2{
+  color: #000;
+text-align: center;
+font-family: Pretendard;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 10px;
+}
+.subbanner p{
+  color: #000;
+text-align: center;
+font-family: Pretendard;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.process{
+  background: #F5F5F5;
+  padding-top: 56px;padding-bottom: 70px;
+}
+h3{
+  color: #000;
+font-family: Pretendard;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.process .flexcontainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+.process .flexitem{
+padding: 22px;
+width: 160px;
+height: 180px;
+  border-radius: 10px;
+background: #FFF;
+text-align: center;
+}
+
+.process .flexitem svg{
+display: block;
+margin:0 auto;
+height: 60px;
+}
+.process .flexitem span{
+  color: #FFB526;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: block;
+margin-top: 20px;
+margin-bottom: 4px;
+}
+
+.process .flexitem p{
+  color: #000;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.steps{
+padding-bottom: 70px;
+}
+.step .pa{
+  padding-top: 10px;
+}
+.step .pa .ch:nth-child(1){
+  width: 360px;;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.step .pa .ch:nth-child(2){
+border-top: 1px solid #000;
+width: 910px;
+margin-top: 30px;
+padding-top: 25px;
+}
+.step .pa .ch span{
+  color: #FFB526;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: block;
+  margin-bottom: 10px;
+}
+.step .pa .ch p{
+  color: #000;
+font-family: Pretendard;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.4
+}
+.step .pa .ch b{
+  display: block;
+  color: #000;
+font-family: Pretendard;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 15px;
+margin-bottom: 4px;
+}
+.step .pa .ch input[type=button]{
+  display: inline-block;
+  color: #FFF;
+text-align: center;
+font-family: Pretendard;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  border-radius: 5px;
+  border: 1px solid #FFB526;
+background: #FFB526;
+padding: 16px 40px;;
+margin-top: 30px;
+
+}
