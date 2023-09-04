@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel=stylesheet type="text/css" href="../css/reset.css">
+  <link rel=stylesheet type="text/css" href="../css/common.css">
+  <link rel=stylesheet type="text/css" href="../css/portfolio.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <title>Iris portfolio</title>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="inner">
+      <h1 >
+        <a href="#" id="logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="30" viewBox="0 0 80 30" fill="none">
+            <g clip-path="url(#clip0_5_8)">
+              <path d="M40.5387 30V1.01416H45.3568V30H40.5387Z" fill="white" />
+              <path
+                d="M58.2384 11.4984H56.3915C54.7051 11.4984 54.143 12.1974 54.143 14.4998V30H49.5659V14.212C49.5659 9.1549 51.0916 7.1814 55.9498 7.1814H58.2384V11.4984Z"
+                fill="white" />
+              <path d="M60.5671 5.45456V0.603027H65.3049V5.45456H60.5671ZM60.5671 30V7.14026H65.2648V30H60.5671Z"
+                fill="white" />
+              <path
+                d="M68.3564 25.7241H73.1744C74.5797 25.7241 75.463 25.1896 75.463 23.8739C75.463 22.5582 75.0213 21.9826 73.335 21.037L72.2911 20.4203C69.6813 18.9401 67.995 17.1311 67.995 13.8008C67.995 9.8949 70.2033 7.51025 74.8206 7.51025H78.7553V11.7451H74.8206C73.4153 11.7451 72.5722 12.4029 72.5722 13.7186C72.5722 14.8287 72.9737 15.7743 74.8607 16.8844L75.6638 17.3367C78.8758 19.269 80 20.6669 80 23.8328C80 28.0265 77.6713 30 73.7365 30H68.3564V25.7241Z"
+                fill="white" />
+              <path d="M10.9076 0H0V10.7035H10.9076V0Z" fill="white" />
+              <path
+                d="M0 20.1872H4.29611C4.29611 20.1872 8.78628 19.9473 10.7737 16.8295C10.7737 16.8295 19.366 3.63165 23.5015 1.95965C23.5015 1.95965 26.5797 -0.0823744 32.6023 -0.000145072V9.71662C32.6023 9.71662 29.8252 8.9697 27.7708 10.4156C25.7164 11.8614 18.496 22.3183 18.496 22.3183C18.496 22.3183 12.6407 29.6298 5.88875 29.76H0V20.1803V20.1872Z"
+                fill="white" />
+            </g>
+            <defs>
+              <clipPath id="clip0_5_8">
+                <rect width="80" height="30" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+      </h1>
+      <nav>
+        <ul class="pa">
+          <a href="#" class="ch">
+            <li>회사소개</li>
+          </a>
+          <a href="#" class="ch">
+            <li>찾아오시는 길</li>
+          </a>
+          <a href="#" class="ch">
+            <li>작업 진행 절차</li>
+          </a>
+          <a href="#" class="ch">
+            <li>견적 문의</li>
+          </a>
+          <a href="#" class="ch">
+            <li>포트폴리오</li>
+          </a>
+        </ul>
+      </nav>
+      <div class="icons">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <a href="#">
+            <path
+              d="M14 13.25H10C9.59 13.25 9.25 13.59 9.25 14C9.25 14.41 9.59 14.75 10 14.75H14C14.41 14.75 14.75 14.41 14.75 14C14.75 13.59 14.41 13.25 14 13.25ZM10 10.75H12C12.41 10.75 12.75 10.41 12.75 10C12.75 9.59 12.41 9.25 12 9.25H10C9.59 9.25 9.25 9.59 9.25 10C9.25 10.41 9.59 10.75 10 10.75Z"
+              fill="#fff" />
+            <path
+              d="M16.19 2H7.81999C4.17999 2 2.00999 4.17 2.00999 7.81V16.18C2.00999 19.82 4.17999 21.99 7.81999 21.99H16.19C19.83 21.99 22 19.82 22 16.18V7.81C22 4.17 19.83 2 16.19 2ZM18 15C18 17 17 18 15 18H8.99999C6.99999 18 5.99999 17 5.99999 15V9C5.99999 7 6.99999 6 8.99999 6H13C15 6 16 7 16 9V10C16 10.55 16.45 11 17 11C17.55 11 18 11.45 18 12V15Z"
+              fill="#fff" />
+          </a>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <a href="#">
+            <path
+              d="M17 4H7C4 4 2 6 2 9V15C2 18 4 20 7 20H17C20 20 22 18 22 15V9C22 6 20 4 17 4ZM13.89 13.03L11.42 14.51C10.42 15.11 9.6 14.65 9.6 13.48V10.51C9.6 9.34 10.42 8.88 11.42 9.48L13.89 10.96C14.84 11.54 14.84 12.46 13.89 13.03Z"
+              fill="#fff" />
+          </a>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <a href="">
+            <path
+              d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM12 15.88C9.86 15.88 8.12 14.14 8.12 12C8.12 9.86 9.86 8.12 12 8.12C14.14 8.12 15.88 9.86 15.88 12C15.88 14.14 14.14 15.88 12 15.88ZM17.92 6.88C17.87 7 17.8 7.11 17.71 7.21C17.61 7.3 17.5 7.37 17.38 7.42C17.198 7.49725 16.9971 7.51853 16.803 7.48113C16.6089 7.44372 16.4303 7.34933 16.29 7.21C16.2 7.11 16.13 7 16.08 6.88C16.0286 6.75982 16.0015 6.63069 16 6.5C16 6.37 16.03 6.24 16.08 6.12C16.13 5.99 16.2 5.89 16.29 5.79C16.52 5.56 16.87 5.45 17.19 5.52C17.26 5.53 17.32 5.55 17.38 5.58C17.44 5.6 17.5 5.63 17.56 5.67C17.61 5.7 17.66 5.75 17.71 5.79C17.8 5.89 17.87 5.99 17.92 6.12C17.97 6.24 18 6.37 18 6.5C18 6.63 17.97 6.76 17.92 6.88Z"
+              fill="#fff" />
+          </a>
+        </svg>
+      </div>
+    </div>
+  </header>
+
+
+<section class="subbanner">
+<div class="inner">
+  <h2>Iris Youtube</h2>
+</div>
+</section>
+
+<section class="youtubeList">
+  <div class="inner">
+    <h3>Youtube List</h3>
+    <!-- ------- 유튜브리스트 3개 시작------- -->
+<div class="gridcontainer">
+  <div class="griditem">
+    <img src="../images/ylist00.png" alt="아이리스유튜브">
+  <div class="irisyoutubeContents">
+    <span>Youtube</span>
+    <p>도곡동 90평 아파트,한* 에서 
+      6000만원 나온 주방,실제 가격은 ?</p>
+  </div>
+
+  </div>
+  <div class="griditem">
+    <img src="../images/ylist01.png" alt="아이리스유튜브">
+  <div class="irisyoutubeContents">
+    <span>Youtube</span>
+    <p>호텔같은 50평대 아파트 인테리어 입니다.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique officia harum fugiat facere illum consequuntur voluptatibus dolor omnis quod totam hic, ab recusandae ad ea aperiam natus veniam iure.
+    </p>
+  </div>
+
+  </div>
+  <div class="griditem">
+    <img src="../images/ylist02.png" alt="아이리스유튜브">
+  <div class="irisyoutubeContents">
+    <span>Youtube</span>
+    <p>시그니엘이 부럽지 않은 그곳! 잠실 롯데캐슬골드 81평 대형평수 아파트 인테리어 현장롯데캐슬골드 81평 대형평수 아파트 인테리 </p>
+  </div>
+
+  </div>
+</div>
+<!-- ------- 유튜브리스트 3개 끝------ -->
+<!-- ------- 유튜브리스트 3개 시작------- -->
+<div class="gridcontainer">
+  <div class="griditem">
+    <img src="../images/ylist00.png" alt="아이리스유튜브">
+  <div class="irisyoutubeContents">
+    <span>Youtube</span>
+    <p>도곡동 90평 아파트,한* 에서 
+      6000만원 나온 주방,실제 가격은 ?</p>
+  </div>
+
+  </div>
+  <div class="griditem">
+    <img src="../images/ylist01.png" alt="아이리스유튜브">
+  <div class="irisyoutubeContents">
+    <span>Youtube</span>
+    <p>호텔같은 50평대 아파트 인테리어 입니다.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique officia harum fugiat facere illum consequuntur voluptatibus dolor omnis quod totam hic, ab recusandae ad ea aperiam natus veniam iure.
+    </p>
+  </div>
+
+  </div>
+  <div class="griditem">
+    <img src="../images/ylist02.png" alt="아이리스유튜브">
+  <div class="irisyoutubeContents">
+    <span>Youtube</span>
+    <p>시그니엘이 부럽지 않은 그곳! 잠실 롯데캐슬골드 81평 대형평수 아파트 인테리어 현장롯데캐슬골드 81평 대형평수 아파트 인테리 </p>
+  </div>
+
+  </div>
+</div>
+<!-- ------- 유튜브리스트 3개 끝------ -->
+
+
+<!-- 유뷰브리스트 더보기 버튼------- -->
+<div class="btnWrap"><button class="readmore" onclick="toggleFunction()">Read More</button></div>
+<!-- 유뷰브리스트 더보기 버튼------- -->
+
+<!-- -----유튜브리스트 더보여지는 부분 시작----- -->
+<div id="showyoutube">
+  <div class="gridcontainer ">
+    <div class="griditem">
+      <img src="../images/ylist00.png" alt="아이리스유튜브">
+    <div class="irisyoutubeContents">
+      <span>Youtube</span>
+      <p>도곡동 90평 아파트,한* 에서
+        6000만원 나온 주방,실제 가격은 ?</p>
+    </div>
+  
+    </div>
+    <div class="griditem">
+      <img src="../images/ylist01.png" alt="아이리스유튜브">
+    <div class="irisyoutubeContents">
+      <span>Youtube</span>
+      <p>호텔같은 50평대 아파트 인테리어 입니다.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique officia harum fugiat facere illum consequuntur voluptatibus dolor omnis quod totam hic, ab recusandae ad ea aperiam natus veniam iure.
+      </p>
+    </div>
+  
+    </div>
+    <div class="griditem">
+      <img src="../images/ylist02.png" alt="아이리스유튜브">
+    <div class="irisyoutubeContents">
+      <span>Youtube</span>
+      <p>시그니엘이 부럽지 않은 그곳! 잠실 롯데캐슬골드 81평 대형평수 아파트 인테리어 현장롯데캐슬골드 81평 대형평수 아파트 인테리 </p>
+    </div>
+  
+    </div>
+  </div>
+  <div class="gridcontainer ">
+    <div class="griditem">
+      <img src="../images/ylist00.png" alt="아이리스유튜브">
+    <div class="irisyoutubeContents">
+      <span>Youtube</span>
+      <p>도곡동 90평 아파트,한* 에서
+        6000만원 나온 주방,실제 가격은 ?</p>
+    </div>
+  
+    </div>
+    <div class="griditem">
+      <img src="../images/ylist01.png" alt="아이리스유튜브">
+    <div class="irisyoutubeContents">
+      <span>Youtube</span>
+      <p>호텔같은 50평대 아파트 인테리어 입니다.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet similique officia harum fugiat facere illum consequuntur voluptatibus dolor omnis quod totam hic, ab recusandae ad ea aperiam natus veniam iure.
+      </p>
+    </div>
+  
+    </div>
+    <div class="griditem">
+      <img src="../images/ylist02.png" alt="아이리스유튜브">
+    <div class="irisyoutubeContents">
+      <span>Youtube</span>
+      <p>시그니엘이 부럽지 않은 그곳! 잠실 롯데캐슬골드 81평 대형평수 아파트 인테리어 현장롯데캐슬골드 81평 대형평수 아파트 인테리 </p>
+    </div>
+  
+    </div>
+  </div>
+</div>
+<!-- -----유튜브리스트 더보여지는 부분 시작----- -->
+  </div>
+  </section>
+
+
+
+  <!-- ------ 유튜브리스트 더보기 ------ -->
+  <script>
+function toggleFunction() {
+  var x = document.getElementById("showyoutube");
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+    </script>
+  <!-- ------ 유튜브리스트 더보기 ------ -->
+
+  <footer>
+    <div class="inner pa">
+      <img src="../images/logo_b.png" class="logo_footer" alt="아이리스로고">
+      <div class="pa">
+        <div class="ch">
+          <b>(주)아이리스 디자인</b>
+          <div class="pa">
+            <span class="ch">대표이사 : 박선영</span>
+            <span class="ch">사업자 등록번호 : 234-88-02220</span>
+            <div class="add">경기도 하남시 초광산단로 17 3층 키친블럼 스튜디오</div>
+          </div>
+        </div>
+        <div class="ch">
+          <b>고객센터</b>
+          <p>02-805-0613</p>
+        </div>
+        <div class="ch">
+          <b>E-mail</b>
+          <p>zetlee3206@naver.com</p>
+        </div>
+      </div>
+      <small>copyrights © iris dezin. All right reserved</small>
+      <div class="ab icons">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <a href="#">
+            <path
+              d="M14 13.25H10C9.59 13.25 9.25 13.59 9.25 14C9.25 14.41 9.59 14.75 10 14.75H14C14.41 14.75 14.75 14.41 14.75 14C14.75 13.59 14.41 13.25 14 13.25ZM10 10.75H12C12.41 10.75 12.75 10.41 12.75 10C12.75 9.59 12.41 9.25 12 9.25H10C9.59 9.25 9.25 9.59 9.25 10C9.25 10.41 9.59 10.75 10 10.75Z"
+              fill="#D9D9D9" />
+            <path
+              d="M16.19 2H7.81999C4.17999 2 2.00999 4.17 2.00999 7.81V16.18C2.00999 19.82 4.17999 21.99 7.81999 21.99H16.19C19.83 21.99 22 19.82 22 16.18V7.81C22 4.17 19.83 2 16.19 2ZM18 15C18 17 17 18 15 18H8.99999C6.99999 18 5.99999 17 5.99999 15V9C5.99999 7 6.99999 6 8.99999 6H13C15 6 16 7 16 9V10C16 10.55 16.45 11 17 11C17.55 11 18 11.45 18 12V15Z"
+              fill="#D9D9D9" />
+          </a>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <a href="#">
+            <path
+              d="M17 4H7C4 4 2 6 2 9V15C2 18 4 20 7 20H17C20 20 22 18 22 15V9C22 6 20 4 17 4ZM13.89 13.03L11.42 14.51C10.42 15.11 9.6 14.65 9.6 13.48V10.51C9.6 9.34 10.42 8.88 11.42 9.48L13.89 10.96C14.84 11.54 14.84 12.46 13.89 13.03Z"
+              fill="#D9D9D9" />
+          </a>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <a href="">
+            <path
+              d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM12 15.88C9.86 15.88 8.12 14.14 8.12 12C8.12 9.86 9.86 8.12 12 8.12C14.14 8.12 15.88 9.86 15.88 12C15.88 14.14 14.14 15.88 12 15.88ZM17.92 6.88C17.87 7 17.8 7.11 17.71 7.21C17.61 7.3 17.5 7.37 17.38 7.42C17.198 7.49725 16.9971 7.51853 16.803 7.48113C16.6089 7.44372 16.4303 7.34933 16.29 7.21C16.2 7.11 16.13 7 16.08 6.88C16.0286 6.75982 16.0015 6.63069 16 6.5C16 6.37 16.03 6.24 16.08 6.12C16.13 5.99 16.2 5.89 16.29 5.79C16.52 5.56 16.87 5.45 17.19 5.52C17.26 5.53 17.32 5.55 17.38 5.58C17.44 5.6 17.5 5.63 17.56 5.67C17.61 5.7 17.66 5.75 17.71 5.79C17.8 5.89 17.87 5.99 17.92 6.12C17.97 6.24 18 6.37 18 6.5C18 6.63 17.97 6.76 17.92 6.88Z"
+              fill="#D9D9D9" />
+          </a>
+        </svg>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
