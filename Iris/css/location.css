@@ -1,6 +1,7 @@
 @charset "UTF-8";  
 .subbanner{
   margin-bottom: 80px;
+  margin-top: 70px;
 }
 .way .ch:nth-child(1){
   padding:10px 390px 0 0;

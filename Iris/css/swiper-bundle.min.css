@@ -38,14 +38,23 @@
   overflow: clip;
   list-style: none;
   padding: 0;
-  z-index: -1;
+  /* z-index: -1; */
   display: block
+}
+.mySwiper01{
+  z-index: -1;
 }
 .mySwiper02{
   z-index: 0;
 }
 .mySwiper03{
   position: relative;
+}
+.mySwiper04{
+  position: relative;
+}
+.mySwiper04 .swiper{
+  z-index: -2;
 }
 .swiper h2{
 position: absolute;
@@ -305,7 +314,20 @@ margin-top: -50px;
   justify-content: center;
   color: var(--swiper-navigation-color, var(--swiper-theme-color))
 }
-
+.swiper-button-next02,
+.swiper-button-prev02 {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 50%);
+  width: calc(var(--swiper-navigation-size)/ 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color))
+}
 .swiper-button-next.swiper-button-disabled,
 .swiper-button-prev.swiper-button-disabled {
   opacity: .35;
@@ -343,10 +365,19 @@ margin-top: -50px;
   left: var(--swiper-navigation-sides-offset, 10px);
   right: auto
 }
-
+.swiper-button-prev02,
+.swiper-rtl .swiper-button-next02 {
+  left: var(--swiper-navigation-sides-offset, 13%);
+  right: auto
+}
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
-  right: var(--swiper-navigation-sides-offset, 10px);
+  left: var(--swiper-navigation-sides-offset, 10px);
+  right: auto
+}
+.swiper-button-next02,
+.swiper-rtl .swiper-button-prev02 {
+  right: var(--swiper-navigation-sides-offset, 13%);
   left: auto
 }
 
@@ -406,6 +437,15 @@ margin-top: -50px;
 
 }
 
+/* 포트폴리오페이지 슬라이드 prev버튼--------------- */
+.swiper-button-prev02 {
+  background: url(../images/portprev.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 36px;
+  height: 36px;
+
+}
 
 
 
@@ -426,13 +466,28 @@ margin-top: -50px;
 
 }
 
+/* 포트폴리오페이지 슬라이드 next버튼--------------- */
+.swiper-button-next02 {
+  background: url(../images/portnext.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 36px;
+  height: 36px;
+
+}
 .mySwiper02 .swiper-button-next:after{
 display: none;
 }
 .mySwiper02 .swiper-button-prev:after {
 display: none;
 }
+.mySwiper04 .swiper-button-next:after{
+  display: none;
 
+  }
+  .mySwiper04 .swiper-button-prev:after {
+  display: none;
+  }
 
 
 

@@ -44,5 +44,12 @@ disableOnInteraction: false
 
 });
 
+var swiper = new Swiper(".mySwiper04", {
+  slidesPerView: 1,
 
+  navigation: {
+    nextEl: ".swiper-button-next02",
+    prevEl: ".swiper-button-prev02",
+  },
+  });
 })

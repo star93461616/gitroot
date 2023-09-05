@@ -100,21 +100,23 @@ font-weight: 700;
 
 /* 헤더---------------- */
 header {
+margin:0 auto;
 
-margin-bottom: -71px;
-z-index: 1
 }
 .headerBlack{
 	margin-bottom: 0;
 	z-index: inherit;
+	height: 70px;
 }
 header .inner{
-	width: 1280px;
-	margin:0 auto;
+	margin-bottom: -71px;
+width: 1280px; 
 display: flex;
 justify-content: flex-start;
 align-items: center;
 height: 70px;
+
+
 }
 header .inner h1{
 
